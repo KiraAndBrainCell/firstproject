@@ -1,0 +1,14 @@
+None
+Power State
+Service Tag
+Device Type
+Device Model
+IP Address
+ON
+5WCTTQ1
+Server
+10.255.2.166, 169.254.31.7
+Software Details
+Alerts
+Warranty
+Online Resources

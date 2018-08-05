@@ -1,0 +1,1 @@
+PropertyValueTemperature26 C (78 F)Power84 Watts (286 BTU/hr)StorageBatteryFanIntrusionPowerRemovable Flash MediaTemperatureVoltage

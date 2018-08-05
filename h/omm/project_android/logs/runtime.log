@@ -1,0 +1,582 @@
+2017-03-01 13:29:21 INFO [dellunit] DellUnit v1.2.2
+2017-03-01 13:29:21 INFO [dellunit] Build: None
+2017-03-01 13:29:21 INFO [dellunit] logfile is: logs/runtime.log
+2017-03-01 13:29:21 INFO [dellunit] Setting log level to: DEBUG
+2017-03-01 13:29:21 DBUG [dellunit] timestamp_report: False
+2017-03-01 13:29:21 DBUG [dellunit] tests: ('Testcase_2002',)
+2017-03-01 13:29:21 DBUG [dellunit] logfolder: logs
+2017-03-01 13:29:21 DBUG [dellunit] buffer: True
+2017-03-01 13:29:21 DBUG [dellunit] separate_output: True
+2017-03-01 13:29:21 DBUG [dellunit] mail_users: ()
+2017-03-01 13:29:21 DBUG [dellunit] wipe_logs: False
+2017-03-01 13:29:21 DBUG [dellunit] verbosity: 10
+2017-03-01 13:29:21 DBUG [dellunit] catchbreak: False
+2017-03-01 13:29:21 DBUG [dellunit] retry_failed: False
+2017-03-01 13:29:21 DBUG [dellunit] mail_server: mail.delllabs.net
+2017-03-01 13:29:21 DBUG [dellunit] failfast: True
+2017-03-01 13:29:22 DBUG [dellunit] Discovery complete, running test(s)
+2017-03-01 13:29:37 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session {"desiredCapabilities": {"deviceName": "04c93928881c6417", "unicodekeyboard": true, "udid": "04c93928881c6417", "platformName": "Android", "app": "/Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/97_android_client-debug.apk", "resetkeyboard": true, "platformVersion": "5.1.1", "appPackage": "com.dell.omm", "autoAcceptAlerts": true, "appActivity": "com.dell.omm.ui.OmmHomeActivity"}}
+2017-03-01 13:30:04 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:04 INFO [Testcase_2002.Testcase_2002.test_1000_1] Step 1 Started.
+2017-03-01 13:30:09 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/enter_password_enter_id"}
+2017-03-01 13:30:09 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:09 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/1/enabled {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "1"}
+2017-03-01 13:30:09 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:09 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/1/clear {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "1"}
+2017-03-01 13:30:11 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:11 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/1/value {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "1", "value": ["D", "e", "l", "l"]}
+2017-03-01 13:30:16 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:19 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/login_button_id"}
+2017-03-01 13:30:19 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:19 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/2/enabled {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "2"}
+2017-03-01 13:30:19 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:19 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/2/click {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "2"}
+2017-03-01 13:30:19 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:19 INFO [Testcase_2002.Testcase_2002.test_1000_1] Step 1 Completed.
+2017-03-01 13:30:19 INFO [Testcase_2002.Testcase_2002.test_1000_1] Step 2 Started.
+2017-03-01 13:30:21 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/elements {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/top_text"}
+2017-03-01 13:30:22 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:22 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/3/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "3"}
+2017-03-01 13:30:22 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:22 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/4/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "4"}
+2017-03-01 13:30:22 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:22 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/5/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "5"}
+2017-03-01 13:30:22 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:22 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/5/click {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "5"}
+2017-03-01 13:30:23 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:23 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/power_status_id"}
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/11/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "11"}
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/power_status_value"}
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/12/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "12"}
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/service_tag_id"}
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/13/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "13"}
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/ip_address_value"}
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/14/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "14"}
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/device_model_id"}
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:24 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/15/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "15"}
+2017-03-01 13:30:25 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/memory_info_id"}
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/16/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "16"}
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/ip_address_value"}
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/17/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "17"}
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/os_info_id"}
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/18/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "18"}
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/hostname_info_id"}
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/19/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "19"}
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/ip_address_id"}
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/20/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "20"}
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/window/current/size {"windowHandle": "current", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385"}
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:28 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/touch/perform {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "actions": [{"action": "press", "options": {"y": 710, "x": 384}}, {"action": "wait", "options": {"ms": 900}}, {"action": "moveTo", "options": {"y": 236, "x": 384}}, {"action": "release", "options": {}}]}
+2017-03-01 13:30:29 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:32 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/memory_info_value"}
+2017-03-01 13:30:32 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:32 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/21/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "21"}
+2017-03-01 13:30:32 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:32 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/os_info_value"}
+2017-03-01 13:30:32 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:32 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/22/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "22"}
+2017-03-01 13:30:32 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:32 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/hostname_info_value"}
+2017-03-01 13:30:32 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:32 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/23/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "23"}
+2017-03-01 13:30:32 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:35 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/ip_address_value"}
+2017-03-01 13:30:35 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:35 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/24/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "24"}
+2017-03-01 13:30:35 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:35 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/lcl_logs_id"}
+2017-03-01 13:30:35 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:35 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/25/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "25"}
+2017-03-01 13:30:35 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:35 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/fw_info_id"}
+2017-03-01 13:30:35 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:35 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/26/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "26"}
+2017-03-01 13:30:35 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:35 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/network_info_id"}
+2017-03-01 13:30:35 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:35 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/27/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "27"}
+2017-03-01 13:30:36 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:36 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/hardware_info_id"}
+2017-03-01 13:30:36 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:36 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/28/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "28"}
+2017-03-01 13:30:36 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:39 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/health_info_id"}
+2017-03-01 13:30:39 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:39 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/29/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "29"}
+2017-03-01 13:30:39 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:39 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/warranty_info_id"}
+2017-03-01 13:30:39 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:39 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/30/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "30"}
+2017-03-01 13:30:39 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:42 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/location_info_id"}
+2017-03-01 13:30:42 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:42 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/31/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "31"}
+2017-03-01 13:30:42 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:42 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "name", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "Online Resources"}
+2017-03-01 13:30:42 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:42 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/32/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "32"}
+2017-03-01 13:30:42 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:51 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/location_info_id"}
+2017-03-01 13:30:51 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:51 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/33/click {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "33"}
+2017-03-01 13:30:52 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:55 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "name", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "Location Information"}
+2017-03-01 13:30:55 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:55 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/34/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "34"}
+2017-03-01 13:30:55 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:55 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/rac_fw_header_name_id"}
+2017-03-01 13:30:55 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:55 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/35/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "35"}
+2017-03-01 13:30:56 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:56 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/rac_fw_header_version_id"}
+2017-03-01 13:30:56 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:56 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/36/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "36"}
+2017-03-01 13:30:56 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:56 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/data_id"}
+2017-03-01 13:30:56 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:56 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/37/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "37"}
+2017-03-01 13:30:56 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:59 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/roomname_label"}
+2017-03-01 13:30:59 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:59 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/38/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "38"}
+2017-03-01 13:30:59 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:59 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/id_aisle"}
+2017-03-01 13:30:59 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:59 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/39/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "39"}
+2017-03-01 13:30:59 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:59 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/ty_config_id"}
+2017-03-01 13:30:59 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:59 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/40/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "40"}
+2017-03-01 13:30:59 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:59 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/slot_id"}
+2017-03-01 13:30:59 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:30:59 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/41/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "41"}
+2017-03-01 13:30:59 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:02 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/datacenter_address_id"}
+2017-03-01 13:31:03 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:03 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/42/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "42"}
+2017-03-01 13:31:03 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:03 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/room_address_id"}
+2017-03-01 13:31:03 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:03 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/43/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "43"}
+2017-03-01 13:31:03 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:06 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/aisle_address_id"}
+2017-03-01 13:31:06 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:06 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/44/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "44"}
+2017-03-01 13:31:06 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:06 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/rack_address_id"}
+2017-03-01 13:31:06 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:06 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/45/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "45"}
+2017-03-01 13:31:06 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:06 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/rack_address_id"}
+2017-03-01 13:31:06 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:06 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/46/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "46"}
+2017-03-01 13:31:06 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:12 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/appium/device/keyevent {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "keycode": 4}
+2017-03-01 13:31:12 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:12 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/lcl_logs_id"}
+2017-03-01 13:31:14 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:14 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/47/click {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "47"}
+2017-03-01 13:31:15 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:18 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "name", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "Hardware Log"}
+2017-03-01 13:31:18 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:18 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/48/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "48"}
+2017-03-01 13:31:18 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:22 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/cust_spinner_view"}
+2017-03-01 13:31:22 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:22 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/49/click {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "49"}
+2017-03-01 13:31:23 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:27 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/elements {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/cust_spinner_view"}
+2017-03-01 13:31:27 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:27 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/50/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "50"}
+2017-03-01 13:31:27 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:27 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/50/click {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "50"}
+2017-03-01 13:31:27 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:27 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/se_log_text_top"}
+2017-03-01 13:31:28 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:28 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/52/displayed {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "52"}
+2017-03-01 13:31:28 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:31 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/cust_spinner_view"}
+2017-03-01 13:31:31 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:31 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/53/click {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "53"}
+2017-03-01 13:31:31 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:35 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/elements {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/cust_spinner_view"}
+2017-03-01 13:31:35 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:35 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/54/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "54"}
+2017-03-01 13:31:35 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:35 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/55/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "55"}
+2017-03-01 13:31:35 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:35 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/55/click {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "55"}
+2017-03-01 13:31:36 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:36 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/lc_log_text_top"}
+2017-03-01 13:31:36 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:36 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/56/displayed {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "56"}
+2017-03-01 13:31:37 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:52 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/appium/device/keyevent {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "keycode": 4}
+2017-03-01 13:31:52 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:58 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/health_info_id"}
+2017-03-01 13:31:58 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:31:58 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/57/click {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "57"}
+2017-03-01 13:31:58 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:01 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "name", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "Health Status"}
+2017-03-01 13:32:01 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:01 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/58/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "58"}
+2017-03-01 13:32:01 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:04 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/rac_fw_header_name_id"}
+2017-03-01 13:32:05 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:05 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/59/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "59"}
+2017-03-01 13:32:05 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:08 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/rac_fw_header_version_id"}
+2017-03-01 13:32:08 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:08 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/60/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "60"}
+2017-03-01 13:32:08 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:08 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/temperature_row_name"}
+2017-03-01 13:32:08 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:08 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/61/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "61"}
+2017-03-01 13:32:08 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:11 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/power_row_name"}
+2017-03-01 13:32:11 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:11 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/62/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "62"}
+2017-03-01 13:32:11 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:14 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/window/current/size {"windowHandle": "current", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385"}
+2017-03-01 13:32:14 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:14 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/touch/perform {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "actions": [{"action": "press", "options": {"y": 710, "x": 384}}, {"action": "wait", "options": {"ms": 900}}, {"action": "moveTo", "options": {"y": 236, "x": 384}}, {"action": "release", "options": {}}]}
+2017-03-01 13:32:15 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:15 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/health_storage_id"}
+2017-03-01 13:32:15 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:15 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/63/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "63"}
+2017-03-01 13:32:15 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:15 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/health_battery_id"}
+2017-03-01 13:32:15 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:15 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/64/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "64"}
+2017-03-01 13:32:15 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:15 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/health_fan_id"}
+2017-03-01 13:32:15 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:15 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/65/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "65"}
+2017-03-01 13:32:15 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:15 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/health_intrusion_id"}
+2017-03-01 13:32:15 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:15 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/66/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "66"}
+2017-03-01 13:32:15 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:18 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/health_powersupply_id"}
+2017-03-01 13:32:18 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:18 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/67/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "67"}
+2017-03-01 13:32:18 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:18 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/health_removablemedia_id"}
+2017-03-01 13:32:18 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:18 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/68/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "68"}
+2017-03-01 13:32:19 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:22 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/health_temperature_id"}
+2017-03-01 13:32:22 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:22 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/69/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "69"}
+2017-03-01 13:32:22 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:22 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/health_voltage_id"}
+2017-03-01 13:32:22 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:22 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/70/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "70"}
+2017-03-01 13:32:22 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:28 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/appium/device/keyevent {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "keycode": 4}
+2017-03-01 13:32:28 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:28 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "class name", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "android.widget.ImageButton"}
+2017-03-01 13:32:29 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:29 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/71/enabled {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "71"}
+2017-03-01 13:32:30 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:30 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/71/click {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "71"}
+2017-03-01 13:32:31 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:38 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/elements {"using": "class name", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "android.widget.TextView"}
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/72/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "72"}
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/73/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "73"}
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/74/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "74"}
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/75/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "75"}
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/76/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "76"}
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/77/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "77"}
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/78/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "78"}
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/79/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "79"}
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/80/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "80"}
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/81/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "81"}
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/82/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "82"}
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:42 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/83/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "83"}
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/84/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "84"}
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/85/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "85"}
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/86/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "86"}
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/87/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "87"}
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/88/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "88"}
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/89/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "89"}
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/90/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "90"}
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/91/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "91"}
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/92/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "92"}
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/93/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "93"}
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:43 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/94/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "94"}
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/95/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "95"}
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/96/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "96"}
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/97/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "97"}
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/98/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "98"}
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/99/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "99"}
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/100/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "100"}
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/101/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "101"}
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/102/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "102"}
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/103/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "103"}
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/104/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "104"}
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/105/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "105"}
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/106/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "106"}
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/107/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "107"}
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:44 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/108/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "108"}
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/109/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "109"}
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/110/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "110"}
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/111/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "111"}
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/112/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "112"}
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/113/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "113"}
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/114/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "114"}
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/115/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "115"}
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/116/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "116"}
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/116/click {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "116"}
+2017-03-01 13:32:45 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:50 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/elements {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/top_text"}
+2017-03-01 13:32:51 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:51 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/126/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "126"}
+2017-03-01 13:32:52 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:52 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/127/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "127"}
+2017-03-01 13:32:52 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:52 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/128/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "128"}
+2017-03-01 13:32:52 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:52 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/129/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "129"}
+2017-03-01 13:32:52 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:52 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/130/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "130"}
+2017-03-01 13:32:52 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:52 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/130/click {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "130"}
+2017-03-01 13:32:53 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:53 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/power_status_id"}
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/142/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "142"}
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/power_status_value"}
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/143/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "143"}
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/service_tag_id"}
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/144/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "144"}
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/ip_address_value"}
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/145/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "145"}
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/device_model_id"}
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/146/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "146"}
+2017-03-01 13:32:54 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:57 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/memory_info_id"}
+2017-03-01 13:32:57 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:57 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/147/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "147"}
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/ip_address_value"}
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/148/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "148"}
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/os_info_id"}
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/149/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "149"}
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/hostname_info_id"}
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/150/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "150"}
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/ip_address_id"}
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/151/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "151"}
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/window/current/size {"windowHandle": "current", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385"}
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:32:58 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/touch/perform {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "actions": [{"action": "press", "options": {"y": 710, "x": 384}}, {"action": "wait", "options": {"ms": 900}}, {"action": "moveTo", "options": {"y": 236, "x": 384}}, {"action": "release", "options": {}}]}
+2017-03-01 13:32:59 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:02 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/memory_info_value"}
+2017-03-01 13:33:02 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:02 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/152/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "152"}
+2017-03-01 13:33:02 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:02 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/os_info_value"}
+2017-03-01 13:33:02 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:02 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/153/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "153"}
+2017-03-01 13:33:02 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:02 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/hostname_info_value"}
+2017-03-01 13:33:02 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:02 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/154/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "154"}
+2017-03-01 13:33:02 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:05 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/ip_address_value"}
+2017-03-01 13:33:05 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:05 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/155/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "155"}
+2017-03-01 13:33:06 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:06 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/lcl_logs_id"}
+2017-03-01 13:33:06 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:06 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/156/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "156"}
+2017-03-01 13:33:06 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:06 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/fw_info_id"}
+2017-03-01 13:33:06 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:06 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/157/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "157"}
+2017-03-01 13:33:06 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:06 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/network_info_id"}
+2017-03-01 13:33:06 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:06 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/158/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "158"}
+2017-03-01 13:33:06 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:06 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/hardware_info_id"}
+2017-03-01 13:33:06 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:06 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/159/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "159"}
+2017-03-01 13:33:06 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:09 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/health_info_id"}
+2017-03-01 13:33:09 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:09 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/160/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "160"}
+2017-03-01 13:33:09 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:09 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/warranty_info_id"}
+2017-03-01 13:33:09 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:09 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/161/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "161"}
+2017-03-01 13:33:10 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:13 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/location_info_id"}
+2017-03-01 13:33:13 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:13 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/162/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "162"}
+2017-03-01 13:33:13 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:13 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "name", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "Online Resources"}
+2017-03-01 13:33:13 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:13 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/163/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "163"}
+2017-03-01 13:33:13 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:22 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/location_info_id"}
+2017-03-01 13:33:22 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:22 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/164/click {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "id": "164"}
+2017-03-01 13:33:23 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:26 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "name", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "Location Information"}
+2017-03-01 13:33:26 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:26 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/165/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "165"}
+2017-03-01 13:33:26 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:26 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/rac_fw_header_name_id"}
+2017-03-01 13:33:26 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:26 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/166/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "166"}
+2017-03-01 13:33:26 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:26 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/rac_fw_header_version_id"}
+2017-03-01 13:33:26 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:26 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/167/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "167"}
+2017-03-01 13:33:26 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:26 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/data_id"}
+2017-03-01 13:33:26 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:26 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/168/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "168"}
+2017-03-01 13:33:26 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:29 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/roomname_label"}
+2017-03-01 13:33:29 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:29 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/169/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "169"}
+2017-03-01 13:33:29 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:29 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/id_aisle"}
+2017-03-01 13:33:30 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:30 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/170/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "170"}
+2017-03-01 13:33:30 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:30 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/ty_config_id"}
+2017-03-01 13:33:30 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:30 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/171/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "171"}
+2017-03-01 13:33:30 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:30 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/slot_id"}
+2017-03-01 13:33:30 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:30 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/172/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "172"}
+2017-03-01 13:33:30 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:33 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/datacenter_address_id"}
+2017-03-01 13:33:33 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:33 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/173/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "173"}
+2017-03-01 13:33:33 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:33 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/room_address_id"}
+2017-03-01 13:33:33 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:33 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/174/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "174"}
+2017-03-01 13:33:33 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:36 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/aisle_address_id"}
+2017-03-01 13:33:36 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:36 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/175/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "175"}
+2017-03-01 13:33:37 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:37 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/rack_address_id"}
+2017-03-01 13:33:37 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:37 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/176/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "176"}
+2017-03-01 13:33:37 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:37 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/rack_address_id"}
+2017-03-01 13:33:37 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:37 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element/177/attribute/text {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "name": "text", "id": "177"}
+2017-03-01 13:33:37 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:43 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/appium/device/keyevent {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "keycode": 4}
+2017-03-01 13:33:43 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:43 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/lcl_logs_id"}
+2017-03-01 13:33:44 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:47 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "name", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "Hardware Log"}
+2017-03-01 13:33:48 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:52 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/cust_spinner_view"}
+2017-03-01 13:33:53 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:57 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/elements {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/cust_spinner_view"}
+2017-03-01 13:33:57 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:33:57 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/se_log_text_top"}
+2017-03-01 13:33:57 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:34:00 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/cust_spinner_view"}
+2017-03-01 13:34:01 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:34:05 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/elements {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/cust_spinner_view"}
+2017-03-01 13:34:05 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:34:05 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/lc_log_text_top"}
+2017-03-01 13:34:06 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:34:21 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/appium/device/keyevent {"sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "keycode": 4}
+2017-03-01 13:34:21 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-01 13:34:27 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4724/wd/hub/session/e03d5b47-0fd5-4493-a0f8-a8506b7ee385/element {"using": "id", "sessionId": "e03d5b47-0fd5-4493-a0f8-a8506b7ee385", "value": "com.dell.omm:id/health_info_id"}
+2017-03-01 13:34:27 DBUG [selenium.webdriver.remote.remote_connection] Finished Request

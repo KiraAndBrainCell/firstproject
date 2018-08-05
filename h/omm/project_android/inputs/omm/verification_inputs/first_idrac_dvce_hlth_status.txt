@@ -1,0 +1,14 @@
+Health Status
+Property
+Value
+Temperature
+26 C (78 F)
+Power
+84 Watts (286 BTU/hr)
+Storage
+Battery
+Fan
+Intrusion
+Power
+Removable Flash Media
+Temperature

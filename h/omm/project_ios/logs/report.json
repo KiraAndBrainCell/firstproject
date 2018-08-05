@@ -1,0 +1,79 @@
+{
+    "dellunit_version": "1.2.2",
+    "duration": "0:02:23.679674",
+    "info": {
+        "author": "nagarjuna",
+        "build_id": "166",
+        "description": "My Custom Test Description",
+        "name": "My Test",
+        "runtimelogfile": "runtime.log",
+        "version": "2.0"
+    },
+    "logtime": "20170305_214317",
+    "results": [
+        {
+            "description": "",
+            "name": "ESG_TC_53799",
+            "tests": [
+                {
+                    "description": "",
+                    "end": "2017-03-06 05:45:41.906376+00:00",
+                    "name": "ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799",
+                    "start": "2017-03-06 05:43:18.226702+00:00",
+                    "status": "fail",
+                    "stderr": "",
+                    "stdout": "",
+                    "step_results": [
+                        {
+                            "description": "<b>EXPECTED RESULT:</b><br/>User should be able log in to OMM<br/><br/><b>ACTUAL RESULT:</b><br/>OMM login is successful<br/>",
+                            "name": "Logging in to OMM",
+                            "result": "pass",
+                            "stepnum": 1
+                        },
+                        {
+                            "description": "<b>EXPECTED RESULT:</b><br/>User should be able to click 'OME' button and add OME Application<br/><br/><b>ACTUAL RESULT:</b><br/>OME application is successfully added<br/>",
+                            "name": "Click 'OME' button and then add OME application. Enter OME application ip and credentials",
+                            "result": "pass",
+                            "stepnum": 2
+                        },
+                        {
+                            "description": "<b>EXPECTED RESULT:</b><br/>OME health and event details should be displayed correctly<br/><br/><b>ACTUAL RESULT:</b><br/>OME health and event details not displayed correctly - not all arguments converted during string formatting<br/>",
+                            "name": "Verify OME devices health and event severity details",
+                            "result": "fail",
+                            "stepnum": 3
+                        },
+                        {
+                            "description": "<b>EXPECTED RESULT:</b><br/>User should be able to delete OME<br/><br/><b>ACTUAL RESULT:</b><br/>OME not deleted - <br/>",
+                            "name": "Delete OME",
+                            "result": "fail",
+                            "stepnum": 4
+                        }
+                    ],
+                    "testcase": null,
+                    "urls": [
+                        [
+                            "stderr",
+                            "ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799_e.txt"
+                        ],
+                        [
+                            "stdout",
+                            "ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799_o.txt"
+                        ]
+                    ]
+                }
+            ],
+            "urls": []
+        }
+    ],
+    "runtime": {},
+    "start_time": "2017-03-06 05:43:18.226702+00:00",
+    "stop_time": "2017-03-06 05:45:41.906376+00:00",
+    "summary": {
+        "block": 0,
+        "error": 0,
+        "fail": 1,
+        "omit": 0,
+        "pass": 0
+    },
+    "timestamp_report": false
+}

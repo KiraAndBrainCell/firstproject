@@ -1,0 +1,44 @@
+IPv4
+IPv4:
+Enabled
+DHCP:
+Enabled
+IP Address
+null
+Gateway
+10.35.0.1
+Subnet Mask
+255.255.255.0
+DHCP for DNS:
+Disabled
+Primary DNS Server
+0.0.0.0
+Secondary DNS Server
+0.0.0.0
+IPv6: Disabled
+MAC Addresses
+iDRAC MAC Address
+Ethernet MAC Address
+D4:BE:D9:F1:A9:C2
+Virtual Ethernet MAC Address
+D4:BE:D9:F1:A9:C2
+NIC.Integrated.1-1-1
+Ethernet MAC Address
+C8:1F:66:B8:35:F8
+Virtual Ethernet MAC Address
+C8:1F:66:B8:35:F8
+NIC.Integrated.1-2-1
+Ethernet MAC Address
+C8:1F:66:B8:35:F9
+Virtual Ethernet MAC Address
+C8:1F:66:B8:35:F9
+NIC.Integrated.1-3-1
+Ethernet MAC Address
+C8:1F:66:B8:35:FA
+Virtual Ethernet MAC Address
+C8:1F:66:B8:35:FA
+NIC.Integrated.1-4-1
+Ethernet MAC Address
+C8:1F:66:B8:35:FB
+Virtual Ethernet MAC Address
+C8:1F:66:B8:35:FB

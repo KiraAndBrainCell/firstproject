@@ -1,0 +1,47 @@
+Total Memory: 16.0 GB
+2 x DDR4 DIMM(8.0 GB)
+Memory Health
+DIMMA1
+DDR4 DIMM
+Manufacturer
+Samsung
+Serial Number
+401D286B
+Part Number
+M393A1G43DB0-CPB
+Manufacturing Date
+Mar 02 2015
+Size
+8.0 GB
+Type
+DDR4
+Speed(Rated)
+2.08 GHz
+Speed(Actual)
+1.82 GHz
+Rank
+Double Rank
+Bank
+A
+DIMMA2
+DDR4 DIMM
+Manufacturer
+Semiconductors Inc.
+Serial Number
+401D2737
+Part Number
+M393A1G43DB0-CPB
+Manufacturing Date
+Mar 02 2015
+Size
+8.0 GB
+Type
+DDR4
+Speed(Rated)
+2.08 GHz
+Speed(Actual)
+1.82 GHz
+Rank
+Double Rank
+Bank
+B

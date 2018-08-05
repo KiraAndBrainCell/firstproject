@@ -1,0 +1,18 @@
+PAV-VMFARM
+iDRAC-5WCTTQ1
+idrac-2P9DBZ1
+sl-0-68.shared.lab
+RAC_B12FGH1
+RAC_C3HHBC1
+idrac-GBWPDV1
+10.255.2.16
+idrac-86HBQV1
+PowerEdge R805
+
+PowerEdge R520
+PowerEdge FX2s
+
+
+PowerEdge M620
+
+PowerEdge T620

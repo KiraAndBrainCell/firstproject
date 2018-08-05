@@ -1,0 +1,1 @@
+Help Dell improve its products and services by sending anonymous diagnostics and usage data. You can enable or disable anonymous data collection at any time from OMM Settings page.

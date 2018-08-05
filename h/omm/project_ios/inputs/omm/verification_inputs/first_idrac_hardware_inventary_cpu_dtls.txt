@@ -1,0 +1,24 @@
+1X Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz(6 Cores)
+CPU Health
+CPU1
+Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+Manufacturer
+Intel
+ClockSpeed
+2.44 GHz
+Cores
+6
+Threads
+12
+L3 Cache Size
+15.0 MB
+Voltage
+1.2 V
+Hyper Threading
+Enabled
+Virtualization Technology
+Enabled
+Execute Disabled
+Disabled
+Turbo Mode
+Enabled

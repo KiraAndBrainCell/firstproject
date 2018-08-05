@@ -1,0 +1,13 @@
+INSTUPtests.omm.Testcase_ESG_TC_53806
+/Users/lex/Desktop/s/ramudoce/tests/omm/Testcase_ESG_TC_53806.py
+INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&1|5|2|0&&3|6|2|5&&2|7|2|5&&2|8|2|5&&2|9|2|5&&2|10|2|5
+Testcase_ESG_TC_53806=5
+test_ESG_TC_53806=9
+_group_=6
+obj_common=1
+tests.omm.Testcase_ESG_TC_53806=2
+obj_omm=3
+setUp=8
+appium_handler=4
+__init__=7
+tearDown=10

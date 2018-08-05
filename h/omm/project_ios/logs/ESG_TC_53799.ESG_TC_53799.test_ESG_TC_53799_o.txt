@@ -1,0 +1,76 @@
+Inside the set up function
+# ****************************************************************************************************
+                                                STEP - Start the appium driver 
+# ****************************************************************************************************
+#####===== Platform is ios =========#####
+
+#####===== Desired Caps is {'deviceName': 'iPhone', 'unicodekeyboard': True, 'udid': 'a86cf2f88f158a379902ab423b6240a73994f026', 'autoAcceptAlerts': True, 'app': '/Users/lex/Desktop/s/projectone/inputs/omm/builds/ios/166_dell omm dev.ipa', 'resetkeyboard': True, 'platformName': 'Ios', 'bundleid': 'beta.dell.com'} =====#####
+
+Appium server logs has been saved to logs file - appium_server_logs_201703050943
+Platform for execution is Darwin
+
+###### Platform for execution is Darwin ######
+
+Appium server has started successfully
+
+Driver started successfully
+Appium driver has been started successfully
+# ****************************************************************************************************
+                                                STEP - Logging in to OMM 
+# ****************************************************************************************************
+Element with tag xpath and identifier //UIAApplication[1]/UIAWindow[1]/UIASecureTextField[1] is found
+
+Element with tag id and identifier Login is found
+
+Button element with identifier id=Login is clicked
+
+# ****************************************************************************************************
+                                                STEP - Click 'OME' button and add 'OpenManage Essentials 
+# ****************************************************************************************************
+Element with tag xpath and identifier //UIAApplication[1]/UIAWindow[1]/UIATableView[2]/UIATableCell[2]/UIAStaticText[2] is found
+
+Button element with identifier xpath=//UIAApplication[1]/UIAWindow[1]/UIATableView[2]/UIATableCell[2]/UIAStaticText[2] is clicked
+
+OME button clicked on lower bar
+Element with tag id and identifier TextField:IP/Hostname is found
+
+Text box with identifier id=TextField:IP/Hostname is edited with value 100.100.16.50 
+
+Element with tag id and identifier TextField:Username is found
+
+Text box with identifier id=TextField:Username is edited with value administrator 
+
+Element with tag id and identifier TextField:Password is found
+
+Text box with identifier id=TextField:Password is edited with value Lexington123 
+
+OME details entered successfully
+Element with tag xpath and identifier //UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAToolbar[1]/UIAButton[1] is found
+
+# ****************************************************************************************************
+                                                STEP - Verify OME devices health and event severity details 
+# ****************************************************************************************************
+Command Output:190
+Element with name 190 not found
+
+Command Output:5446
+Element with name 5446 not found
+
+Command Output:0
+DB RESULT is:  0
+No records founds with health status of 0 
+
+Command Output:91
+DB RESULT is:  91
+# ****************************************************************************************************
+                                                STEP - Delete OME 
+# ****************************************************************************************************
+Element with tag xpath and identifier //UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAToolbar[2] is found
+
+Button element with identifier xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAToolbar[2] is clicked
+
+Element with tag name and identifier Label:Edit Connection is not found
+
+Element with tag name and identifier Label:Delete Device is not found
+
+Delete button clicked

@@ -1,0 +1,317 @@
+""""
+This module contains all the modules related to omm common module
+"""
+import traceback
+import global_vars
+import csv
+from xml.dom import minidom
+import collections
+
+from libs.product.omm.standard import util
+
+omm_obj_repo_path = global_vars.obj_repo_path
+
+
+def get_obj_identifier(object_name):
+    """
+    This function is used for getting object identification property based on
+    platforms - android or ios
+
+    Function Owner : Nithya_V
+
+    Date created : 20/04/2016
+
+    @param  object_name : (String) Unique name of object to be identified
+
+    @return identifier : (bool)identifier for selected property
+    """
+    identifier = ""
+    try:
+        # extracting object property based on platform - android/ios
+        if global_vars.platform == 'android' :
+            identifier = global_vars.object_repository[object_name]['android_object_property']
+        elif global_vars.platform == 'ios' :
+            identifier = global_vars.object_repository[object_name]['ios_object_property']
+    except:
+        traceback.print_exc()
+    return identifier
+
+
+def get_omm_obj_repository():
+    """
+    This function is used for getting omm object repository from input sheet
+
+    Function Owner : Nithya_V
+
+    Date created : 20/04/2016
+
+    @return obj_dict : (Dictionary) Dictionary of All the objects with their attributes
+    """
+    obj_dict = {}
+    try:
+        # reading object_repository.csv and converting to a dictionary
+        omm_obj_repo = open(omm_obj_repo_path, "rb")
+        obj_rep_reader = csv.reader(omm_obj_repo)
+        for row in obj_rep_reader:
+            for col in row:
+                if str(row[0]).strip() != 'object_name':
+                    each_obj_dict = {}
+                    obj_name = row[0]
+                    each_obj_dict['object_description'] = row[1]
+                    each_obj_dict['android_object_property'] = row[2]
+                    each_obj_dict['ios_object_property'] = row[3]
+                    obj_dict[obj_name] = each_obj_dict
+                    break
+    except:
+        traceback.print_exc()
+    return obj_dict
+
+
+def get_tags(identifier):
+    """
+    This function is used for getting object property dictionary of each object
+
+    Function Owner : Nithya_V
+
+    Date created : 20/04/2016
+
+    @param  identifier : (String) Object identifier for which attributes have to be retrieved
+
+    @return obj_property_dict : (Dictionary) Dictionary of specific object with properties
+    """
+    obj_property_dict = collections.OrderedDict()
+    try:
+        # splitting object identifier with "=" and "~||~ and getting object property dictionary
+        if not(identifier.__contains__('=')):
+            return None
+        if identifier.__contains__('~||~'):
+            idtfr_props = identifier.split('~||~')
+        else:
+            idtfr_props = identifier
+        if isinstance(idtfr_props, list):
+            for each_object in idtfr_props:
+                obj_property_dict[idtfr_props.split("=")[0]] = idtfr_props.split("=")[1]
+        else:
+            obj_property_dict[idtfr_props.split("=")[0]] = idtfr_props.split("=")[1]
+    except:
+        traceback.print_exc()
+    return obj_property_dict
+
+
+def get_tag_identifier(identifierproperty, tag_name=None):
+    """
+    This function is used for getting tag and identifier of the object specified
+
+    Function Owner : Nithya_V
+
+    Date created : 20/04/2016
+
+    @param  identifierproperty : (String) identify properties with tag name
+    @param  tag_name : (String) tag name of the identifier
+
+    @return tag : (Dictionary) Dictionary of specific object with properties
+    """
+    tag, identifer = "", ""
+    try:
+        tag_property_dict = get_tags(identifierproperty)
+
+        # getting tag and identifier for a specific object
+        if tag_name == None:
+            tag = tag_property_dict.keys()[0]
+            identifier = tag_property_dict.values()[0]
+        else:
+            tag = tag_name
+            identifier = tag_property_dict[tag_name]
+    except:
+        traceback.print_exc()
+    return tag, identifier
+
+
+def get_android_device_id():
+    """
+    This function is used for getting device id
+
+    Function Owner : Nithya_V
+
+    Date created : 20/04/2016
+
+    @return device_id : (string) Device id of the android device
+    """
+    device_id = ""
+    try:
+        # running android adb command to retrieve device id
+        result, error = util.runCommand(global_vars.android_deviceID_cmd)
+        if error == "":
+            device_id = result.split('\n')[1].replace('device','').strip() 
+            print "device id is %s" %   device_id
+        else:
+            print "Cannot retrieve device id"
+    except:
+        traceback.print_exc()
+        return ""
+    return device_id
+
+
+def get_android_version():
+    """
+    This function is used for getting device id
+
+    Function Owner : Nithya_V
+
+    Date created : 20/04/2016
+
+    @return android_version : (string) android version of the device
+    """
+    android_version = ""
+    try:
+        # running android adb command to retrieve device version
+        result, error = util.runCommand(global_vars.android_version_cmd)
+        if error == "":
+            android_version = str(result).strip()
+        else:
+            print "Cannot retrieve android version"
+    except:
+        traceback.print_exc()
+        return None
+    return android_version
+
+
+def get_android_installed_packages():
+    """
+    This function is used for getting installed packages in a devices
+
+    Function Owner : Nithya_V
+
+    Date created : 20/04/2016
+
+    @return installed_packages : (string) all the packages installed in device
+    """
+    installed_packages = ""
+    try:
+        # running android adb command to retrieve installed packages
+        result, error = util.runCommand(global_vars.and_get_installed_packs_cmd)
+        if error == "":
+            installed_packages = str(result).strip()
+        else:
+            print "Cannot retrieve installed packages"
+    except:
+        traceback.print_exc()
+        return None
+    return installed_packages
+
+
+def uninstall_android_omm_app():
+    """
+    This function is used for uninstall OMM app
+
+    Function Owner : Nithya_V
+
+    Date created : 3/05/2016
+
+    @return True/False : (string) status of exeuction
+    """
+    try:
+        # running android adb command to un install omm package
+        if get_android_installed_packages().__contains__(global_vars.app_package):
+            print "\n#### Executing command to uninstall OMM android app #### \n %s" % global_vars.android_uninstall_cmd
+            result, error = util.runCommand(global_vars.android_uninstall_cmd)
+            if error == "" and str(result).strip() == "Success":
+                return True
+            else:
+                print "Cannot uninstall the package"
+        else:
+            print "Package is not installed"
+            return True
+    except:
+        traceback.print_exc()
+    return False
+
+
+def uninstall_ios_omm_app():
+    """
+    This function is used for uninstall IOS OMM app
+
+    Function Owner : Nithya_V
+
+    Date created : 17/05/2016
+
+    @return True/False : (string) status of execution
+    """
+    try:
+        uninstall_cmd = str(global_vars.ios_uninstall_cmd).replace('udid', global_vars.udid)
+        print "\n#### Executing command to uninstall OMM IOS app #### \n %s" % uninstall_cmd
+        result, error = util.runCommand(uninstall_cmd)
+        if error == "" and str(result).__contains__('Complete'):
+            return True
+    except:
+        traceback.print_exc()
+    return False
+
+
+def get_testcase_verification_dict():
+    """
+    This function is used for reading test data from test case input file
+
+    Function Owner : Nithya_V
+
+    Date created : 20/04/2016
+
+    @return installed_packages : (string) all the packages installed in device
+    """
+    try:
+        if (util.pathExists(global_vars.tc_input_file_path)):
+            try:
+                main_node_list, xml_dict = [], {}
+                xmlobj = minidom.parse(global_vars.tc_input_file_path)
+                main_node = xmlobj.getElementsByTagName('omm_input')
+                main_node_childs = main_node[0].childNodes
+                for node in main_node_childs:
+                    if str(node.nodeName) != '#text':
+                        main_node_list.append(str(node.nodeName))
+                for each_main_node in main_node_list:
+                    tc_node = xmlobj.getElementsByTagName(each_main_node)
+                    nodes = tc_node[0].childNodes
+                    ret_dict = {}
+                    for node in nodes:
+                        if (node.nodeType == node.ELEMENT_NODE):
+                            try:
+                                subnode = node.childNodes[0]
+                                ret_dict[str(node.nodeName)] = str(subnode.nodeValue)
+                            except:
+                                ret_dict[str(node.nodeName)] = ""
+                    xml_dict[each_main_node] = ret_dict
+                return xml_dict
+            except:
+                traceback.print_exc()
+                return traceback.format_exc()
+        else:
+            return {}
+    except:
+        traceback.print_exc()
+    return {}
+
+
+def get_ios_udid():
+    """
+    This function is used for getting udid in an ios device
+
+    Function Owner : Nithya_V
+
+    Date created : 13/05/2016
+
+    @return udid : (string) UDID of the ios device
+    """
+    udid = ""
+    try:
+        # running android adb command to retrieve device id
+        result, error = util.runCommand(global_vars.ios_udid_cmd, shell=True)
+        print "Command is %s" % global_vars.ios_udid_cmd
+        if error == "":
+            udid = result.strip()
+            print "UDID is %s" % udid
+        else:
+            print "Cannot retrieve udid"
+    except:
+        traceback.print_exc()
+        return ""
+    return udid

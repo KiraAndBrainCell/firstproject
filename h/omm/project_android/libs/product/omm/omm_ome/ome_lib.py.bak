@@ -1,0 +1,220 @@
+""""
+This module contains all the modules related to idrac common functions
+"""
+import traceback
+import pyodbc
+import collections
+from libs.product.omm.standard import global_vars
+from wsman.provider import winrm
+from wsman.provider.remote import Remote
+from wsman.transport.process import Subprocess
+
+namespace = 'root/dcim'
+uri = "http://schemas.dmtf.org"
+
+
+def getEnumerated(classToBeEnumerated, idrac_ip, idrac_userName, idrac_password, \
+                  rawOutput=True):
+    """
+    This function is used for getting output of enumeration class as speciified
+
+    Function Owner : Nithya_V
+
+    Date created : 9/5/2016
+
+    @param classToBeEnumerated : (string) DCIM class for which data to be retrieved
+    @param idrac_ip : (string) idrac ip of system for which data to be retrieved
+    @param idrac_userName : (string) idrac user name of system for which data to be retrieved
+    @param idrac_password : (string) idrac password of system for which data to be retrieved
+    @param rawOutput : (string) output without parsing
+
+    @return result : (string) Command Output, None in case of any error
+    """
+    try:
+        remobj = Remote(idrac_ip, idrac_userName, idrac_password)
+        print '\nENUMERATING THE CLASS '  +classToBeEnumerated+ "\n"
+        winrmobj = winrm.WinRM(transport = Subprocess())
+        result = winrmobj.enumerate(cim_class=classToBeEnumerated, \
+                        cim_namespace=namespace, remote=remobj, raw=rawOutput, uri_host=uri)
+        if result == None:
+            print 'Enumeration Command Failed'
+            return None
+        else:
+            if rawOutput == False:
+                print 'Number of Instances returned : ', len(result)
+            return result  
+    except:
+        traceback.print_exc()
+        return None
+
+
+def get_wsman_dict(classToBeEnumerated, idrac_ip, idrac_userName, idrac_password,\
+                    rawOutput=True):
+    """
+    This function is used for getting output of enumeration class as a dictionary of
+    attribute value pairs
+
+    Function Owner : Nithya_V
+
+    Date created : 9/5/2016
+
+    @param classToBeEnumerated : (string) DCIM class for which data to be retrieved
+    @param idrac_ip : (string) idrac ip of system for which data to be retrieved
+    @param idrac_userName : (string) idrac user name of system for which data to be retrieved
+    @param idrac_password : (string) idrac password of system for which data to be retrieved
+    @param rawOutput : (string) output without parsing
+
+    @return wsman_dict : (dictionary) Output as a dictionary
+    """
+    wsman_dict = {}
+    try:
+        cmdoutput = getEnumerated(classToBeEnumerated, idrac_ip, idrac_userName, \
+                                  idrac_password, rawOutput=rawOutput)
+        print cmdoutput
+        for line in cmdoutput.split('\n'):
+            if line.__contains__('</n1:') and line.__contains__('<n1:'):
+                attribute = str(line.split('</n1:')[1]).replace(">", "").strip()
+                value = str(line.split('</n1:')[0]).replace(attribute, "").replace("<n1:", "").replace(">","").strip()
+                wsman_dict[attribute] = value
+    except:
+        traceback.print_exc()
+    return wsman_dict 
+
+
+def db_get_totalcount(table_name):
+    """
+    This function is used for getting database query results of total count of devices and events
+
+    Function Owner : Abdul_G_Shaik
+
+    Date created : 06/15/2016
+
+    @param table_name : (string) Database Table Name 
+
+    @return rows : (string) Return the number of records available in DB for respective table
+    """
+    try:
+        'establish DB Connection'
+        cnxn = pyodbc.connect('DSN=MYSERVER;UID=sa;PWD=dell_123')
+        cursor = cnxn.cursor()
+        
+        'Form the SQL query and execute'
+        sql_query = "select count(*) from OMEssentials.dbo."+table_name
+        cursor.execute(sql_query)
+        
+        'Fetch the row'
+        rows = cursor.fetchone()[0]
+        print 'Command Output:' + str(rows)
+
+        'Close the connection'
+        cursor.close()
+
+        return str(rows)
+    except:
+        traceback.print_exc()
+        return None
+
+def db_all_device_event_count(table_name, status):
+    """
+    This function is used for getting database query results of various type devices statuses and events severities
+
+    Function Owner : Abdul_G_Shaik
+
+    Date created : 06/15/2016
+
+    @param table_name : (string) Database Table Name 
+    @param status : (string) Status code number
+
+    @return rows : (string) Return the number of records available in DB for respective health status or event severity
+    
+    For Device Health Status:
+        0 - None
+        2 - Unknown
+        4 - Normal
+        8 - Warning
+        16 - Critical
+        32 - DefaultVM
+        
+        for Event Severity:
+        1 - Unknown
+        2 - Info
+        4 - Normal
+        8 - Warning
+        16 - Critical
+        32 - Irrecoverable
+        100 - Interpreted
+    """
+    try:
+        'establish DB Connection'
+        cnxn = pyodbc.connect('DSN=MYSERVER;UID=sa;PWD=dell_123')
+        cursor = cnxn.cursor()
+        
+        'Form the SQL query and execute'
+        if table_name == "Device":
+            column_name = "DeviceGlobalStatus"
+        elif table_name == "Event":
+            column_name = "Severity"
+        sql_query = "select count(*) from OMEssentials.dbo."+table_name+" where "+column_name+" = "+status
+        cursor.execute(sql_query)  
+        
+        'Fetch the row'
+        rows = cursor.fetchone()[0]
+        print 'Command Output:' + str(rows)
+
+        'Close the connection'
+        cursor.close()
+
+        return rows
+    except:
+        traceback.print_exc()
+        return None
+
+
+def convert_code_to_description(table_name, status):
+    """
+    This function will accept the status code and return the Health Status description
+    This function will accept the status code and return the Event Severity description
+
+    Function Owner : Abdul_G_Shaik
+
+    Date created : 06/15/2016
+
+    @param table_name : (string) Database Table Name 
+    @param status : (string) Status code number
+
+    @return new_attribute_value : (string) New value after conversion
+    """
+    try:
+        status = str(status)
+        if table_name == "Device":
+            if status == "0":
+                return "None"
+            elif status == "2":
+                return "Unknown"
+            elif status == "4":
+                return "Healthy"
+            elif status == "8":
+                return "Warning"
+            elif status == "16":
+                return "Critical"
+            elif status == "32":
+                return "DefaultVM"
+        elif table_name == "Event":
+            if status == "1":
+                return "Unknown"
+            elif status == "2":
+                return "Info"
+            elif status == "4":
+                return "Healthy"
+            elif status == "8":
+                return "Warning"
+            elif status == "16":
+                return "Critical"
+            elif status == "32":
+                return "Irrecoverable"
+            elif status == "100":
+                return "Interpreted"
+    except:
+        traceback.print_exc()
+        return ''
+

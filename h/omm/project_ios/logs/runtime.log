@@ -1,0 +1,35 @@
+2017-03-06 06:52:56 INFO [dellunit] DellUnit v1.2.2
+2017-03-06 06:52:56 INFO [dellunit] Build: None
+2017-03-06 06:52:56 INFO [dellunit] logfile is: logs/runtime.log
+2017-03-06 06:52:56 INFO [dellunit] Setting log level to: DEBUG
+2017-03-06 06:52:56 DBUG [dellunit] timestamp_report: False
+2017-03-06 06:52:56 DBUG [dellunit] tests: ('ESG_TC_53799',)
+2017-03-06 06:52:56 DBUG [dellunit] logfolder: logs
+2017-03-06 06:52:56 DBUG [dellunit] buffer: True
+2017-03-06 06:52:56 DBUG [dellunit] separate_output: True
+2017-03-06 06:52:56 DBUG [dellunit] mail_users: ()
+2017-03-06 06:52:56 DBUG [dellunit] wipe_logs: False
+2017-03-06 06:52:56 DBUG [dellunit] verbosity: 10
+2017-03-06 06:52:56 DBUG [dellunit] catchbreak: False
+2017-03-06 06:52:56 DBUG [dellunit] retry_failed: False
+2017-03-06 06:52:56 DBUG [dellunit] mail_server: mail.delllabs.net
+2017-03-06 06:52:56 DBUG [dellunit] failfast: True
+2017-03-06 06:52:57 DBUG [dellunit] Discovery complete, running test(s)
+2017-03-06 06:53:12 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"deviceName": "iPhone", "unicodekeyboard": true, "udid": "a86cf2f88f158a379902ab423b6240a73994f026", "platformName": "Ios", "app": "/Users/lex/Desktop/s/projectone/inputs/omm/builds/ios/166_dell omm dev.ipa", "resetkeyboard": true, "autoAcceptAlerts": true, "bundleid": "beta.dell.com"}}
+2017-03-06 06:53:25 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-06 06:53:25 INFO [ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799] Step 1 Started.
+2017-03-06 06:53:25 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4723/wd/hub/session/be129f2e-cdea-4aad-8905-94d8d2beaae5/element {"using": "xpath", "sessionId": "be129f2e-cdea-4aad-8905-94d8d2beaae5", "value": "//UIAApplication[1]/UIAWindow[1]/UIASecureTextField[1]"}
+2017-03-06 06:53:28 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-06 06:53:28 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4723/wd/hub/session/be129f2e-cdea-4aad-8905-94d8d2beaae5/appium/element/0/value {"sessionId": "be129f2e-cdea-4aad-8905-94d8d2beaae5", "id": "0", "value": ["Dell"]}
+2017-03-06 06:53:29 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-06 06:53:29 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4723/wd/hub/session/be129f2e-cdea-4aad-8905-94d8d2beaae5/element {"using": "id", "sessionId": "be129f2e-cdea-4aad-8905-94d8d2beaae5", "value": "Login"}
+2017-03-06 06:53:30 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-06 06:53:30 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4723/wd/hub/session/be129f2e-cdea-4aad-8905-94d8d2beaae5/element/1/enabled {"sessionId": "be129f2e-cdea-4aad-8905-94d8d2beaae5", "id": "1"}
+2017-03-06 06:53:31 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-06 06:53:31 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4723/wd/hub/session/be129f2e-cdea-4aad-8905-94d8d2beaae5/element/1/click {"sessionId": "be129f2e-cdea-4aad-8905-94d8d2beaae5", "id": "1"}
+2017-03-06 06:53:33 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-06 06:53:33 INFO [ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799] Step 1 Completed.
+2017-03-06 06:53:33 INFO [ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799] Step 2 Started.
+2017-03-06 06:53:38 DBUG [selenium.webdriver.remote.remote_connection] POST http://127.0.0.1:4723/wd/hub/session/be129f2e-cdea-4aad-8905-94d8d2beaae5/element {"using": "xpath", "sessionId": "be129f2e-cdea-4aad-8905-94d8d2beaae5", "value": "//UIAApplication[1]/UIAWindow[1]/UIATableView[2]/UIATableCell[2]/UIAStaticText[2]"}
+2017-03-06 06:53:42 DBUG [selenium.webdriver.remote.remote_connection] Finished Request
+2017-03-06 06:53:42 DBUG [selenium.webdriver.remote.remote_connection] GET http://127.0.0.1:4723/wd/hub/session/be129f2e-cdea-4aad-8905-94d8d2beaae5/element/2/enabled {"sessionId": "be129f2e-cdea-4aad-8905-94d8d2beaae5", "id": "2"}

@@ -1,0 +1,100 @@
+2017-03-06 05:43:47 INFO [ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799] Step 1 Started.
+2017-03-06 05:43:54 INFO [ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799] Step 1 Completed.
+2017-03-06 05:43:54 INFO [ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799] Step 2 Started.
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projectone/libs/product/omm/standard/ui_controls.py", line 465, in Click
+    click_element.click()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 74, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 457, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+WebDriverException: Message: An unknown server-side error occurred while processing the command.
+
+2017-03-06 05:44:56 INFO [ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799] Step 2 Completed.
+2017-03-06 05:44:56 INFO [ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799] Step 3 Started.
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projectone/libs/product/omm/omm_ome/ui_ome.py", line 483, in pysmsql_verify_total_count
+    element = g.driver.find_element_by_name(str(attribute_value)).find_element_by_name(str(attribute_value))
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 362, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projectone/libs/product/omm/omm_ome/ui_ome.py", line 483, in pysmsql_verify_total_count
+    element = g.driver.find_element_by_name(str(attribute_value)).find_element_by_name(str(attribute_value))
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 362, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projectone/libs/product/omm/omm_ome/ui_ome.py", line 415, in verify_pysmsql_ome_details
+    flag3 = pysmsql_verify_all_status_count(device_health, "Device")
+  File "/Users/lex/Desktop/s/projectone/libs/product/omm/omm_ome/ui_ome.py", line 666, in pysmsql_verify_all_status_count
+    print "Could not get the values and compare in UI \n" % table_name
+TypeError: not all arguments converted during string formatting
+2017-03-06 05:45:03 CRIT [ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799] Fail:OME health and event details not displayed correctly - not all arguments converted during string formatting
+2017-03-06 05:45:03 CRIT [ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799] Step 3 error: <b>EXPECTED RESULT:</b><br/>OME health and event details should be displayed correctly<br/><br/><b>ACTUAL RESULT:</b><br/>OME health and event details not displayed correctly - not all arguments converted during string formatting<br/>
+2017-03-06 05:45:03 INFO [ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799] Step 3 Completed.
+2017-03-06 05:45:03 INFO [ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799] Step 4 Started.
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projectone/libs/product/omm/standard/ui_controls.py", line 38, in ui_element
+    element = g.driver.find_element_by_name(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 362, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projectone/libs/product/omm/standard/ui_controls.py", line 314, in button
+    if element_button.is_enabled():
+AttributeError: 'NoneType' object has no attribute 'is_enabled'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projectone/libs/product/omm/standard/ui_controls.py", line 38, in ui_element
+    element = g.driver.find_element_by_name(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 362, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projectone/libs/product/omm/standard/ui_controls.py", line 314, in button
+    if element_button.is_enabled():
+AttributeError: 'NoneType' object has no attribute 'is_enabled'
+2017-03-06 05:45:41 CRIT [ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799] Fail:OME not deleted - 
+2017-03-06 05:45:41 CRIT [ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799] Step 4 error: <b>EXPECTED RESULT:</b><br/>User should be able to delete OME<br/><br/><b>ACTUAL RESULT:</b><br/>OME not deleted - <br/>
+2017-03-06 05:45:41 INFO [ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799] Step 4 Completed.
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projectone/tests/omm/ESG_TC_53799.py", line 59, in test_ESG_TC_53799
+    continue_on_fail=True)
+  File "/Users/lex/Desktop/s/projectone/libs/core/dellunit/case.py", line 226, in run_steps
+    test_func(self._step_results)
+  File "/Users/lex/Desktop/s/projectone/libs/core/dellunit/case.py", line 193, in default_test
+    self.assertEqual(pass_count, len(steps), 'All steps did not pass')
+AssertionError: 2 != 4 : All steps did not pass
+2017-03-06 05:45:41 ANOU [ESG_TC_53799.ESG_TC_53799.test_ESG_TC_53799] FAIL: (<type 'exceptions.AssertionError'>, AssertionError('2 != 4 : All steps did not pass',), <traceback object at 0x103a83a70>)

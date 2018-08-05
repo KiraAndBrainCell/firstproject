@@ -1,0 +1,3 @@
+OpenManage Mobile can run in Demo Mode to let you explore its features. All OME and iDRAC data in Demo Mode is for training and educational purposes only. In Demo Mode, this App does not monitor any real instances of OME or iDRAC.
+
+You can also access Demo Mode from Settings screen at any time.

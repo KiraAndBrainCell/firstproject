@@ -1,0 +1,55 @@
+2017-03-01 11:48:21 INFO [Testcase_2002.Testcase_2002.test_1000_1] Step 1 Started.
+2017-03-01 11:48:37 INFO [Testcase_2002.Testcase_2002.test_1000_1] Step 1 Completed.
+2017-03-01 11:48:37 INFO [Testcase_2002.Testcase_2002.test_1000_1] Step 2 Started.
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/omm_generic/demomode_functions.py", line 2098, in verify_first_ome_device_devices
+    flag2 = ui_controls.Button(get_obj_identifier('ome_dvce'))
+AttributeError: ui_controls instance has no attribute 'Button'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/omm_generic/demomode_functions.py", line 2401, in verify_first_ome_all_ntwrk_devices_homepage_txt
+    status = False if not (flag1 and flag2) else True
+UnboundLocalError: local variable 'flag1' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/omm_generic/demomode_functions.py", line 2566, in verify_first_ome_all_rac_devices_homepage_txt
+    status = False if not (flag1 and flag2) else True
+UnboundLocalError: local variable 'flag1' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 40, in ui_element
+    element = g.driver.find_element_by_class_name(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 410, in find_element_by_class_name
+    return self.find_element(by=By.CLASS_NAME, value=name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 465, in Click
+    click_element.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 38, in ui_element
+    element = g.driver.find_element_by_name(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 362, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 465, in Click
+    click_element.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/omm_generic/demomode_functions.py", line 2767, in verify_first_ome_all_servers_devices_homepage_txt
+    status = False if not (flag2 and flag3 and flag4 and flag5 and flag6) else True
+UnboundLocalError: local variable 'flag2' referenced before assignment
+2017-03-01 11:50:29 INFO [Testcase_2002.Testcase_2002.test_1000_1] Step 2 Completed.
+2017-03-01 11:50:29 INFO [Testcase_2002.Testcase_2002.test_1000_1] Step 3 Started.

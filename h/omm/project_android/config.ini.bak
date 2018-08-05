@@ -1,0 +1,36 @@
+[Information]
+name=My Test
+description=My Custom Test Description
+author=Nithya_V
+build_id=2013-04-12_10:24:25_12
+version = 1.0
+
+[dellunit]
+tests = ('Testcase_ESG-TC-53806')
+verbosity = debug
+retry_failed = 0
+timestamp_report = 0
+separate_output = 1
+wipe_logs = 0
+mail_users = ''
+
+[Open_Manage_mobile]
+platform = ios
+android_build_filename = android_sdk.apk
+ios_build_filename = DellOMM.ipa
+app_name = dellOMM
+password = Dell
+password_hint = office
+
+windows_ip = 100.100.17.103
+windows_username = administrator
+windows_password = dell_123
+ios_version_number = 1.5
+ios_build_number = 406
+android_version_number =1.5
+android_build_number = 27
+
+
+
+
+

@@ -1,0 +1,15 @@
+Power Supply.Slot.1
+Integrated Dell Remote Access Controller
+Broadcom Gigabit Ethernet BCM5720 - D4:AE:52:89:65:2F
+Broadcom Gigabit Ethernet BCM5720 - D4:AE:52:89:65:30
+Broadcom Gigabit Ethernet BCM5720 - D4:AE:52:89:65:2D
+Broadcom Gigabit Ethernet BCM5720 - D4:AE:52:89:65:2E
+BIOS
+PERC H710 Mini
+Disk 0 in Backplane 1 of Integrated RAID Controller 1
+BP12G+EXP 0:1
+Lifecycle Controller
+Diagnostics
+OS Drivers Pack
+OS Collector
+System CPLD

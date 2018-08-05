@@ -1,0 +1,169 @@
+2017-03-01 05:26:58:692 - info: Welcome to Appium v1.4.13 (REV c75d8adcb66a75818a542fe1891a34260c21f76a)
+2017-03-01 05:26:58:695 - info: Appium REST http interface listener started on 127.0.0.1:4724
+2017-03-01 05:26:58:697 - info: [debug] Non-default server args: {"address":"127.0.0.1","port":4724,"bootstrapPort":4725,"noReset":true,"log":"/Users/lex/Desktop/s/projecttwo/logs/appium_server_logs_201703010526.txt","localTimezone":true,"selendroidPort":8082,"chromeDriverPort":9516}
+2017-03-01 05:26:58:698 - info: Console LogLevel: debug
+2017-03-01 05:26:58:698 - info: File LogLevel: debug
+2017-03-01 05:27:11:959 - info: --> POST /wd/hub/session {"desiredCapabilities":{"deviceName":"04c93928881c6417","unicodekeyboard":true,"udid":"04c93928881c6417","platformName":"Android","app":"/Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/97_android_client-debug.apk","resetkeyboard":true,"platformVersion":"5.1.1","appPackage":"com.dell.omm","autoAcceptAlerts":true,"appActivity":"com.dell.omm.ui.OmmHomeActivity"}}
+2017-03-01 05:27:11:961 - info: Client User-Agent string: Python-urllib/2.7
+2017-03-01 05:27:11:963 - info: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : unicodekeyboard, resetkeyboard
+2017-03-01 05:27:11:964 - info: [debug] Using local app from desired caps: /Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/97_android_client-debug.apk
+2017-03-01 05:27:11:965 - info: [debug] Creating new appium session 05826392-2929-4e72-a97b-e9e5c077caf6
+2017-03-01 05:27:11:966 - info: Starting android appium
+2017-03-01 05:27:11:968 - info: [debug] Getting Java version
+2017-03-01 05:27:12:045 - info: Java version is: 1.8.0_91
+2017-03-01 05:27:12:046 - info: [debug] Checking whether adb is present
+2017-03-01 05:27:12:046 - info: [debug] Using adb from /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb
+2017-03-01 05:27:12:047 - info: [debug] Using fast reset? false
+2017-03-01 05:27:12:047 - info: [debug] Preparing device for session
+2017-03-01 05:27:12:047 - info: [debug] Checking whether app is actually present
+2017-03-01 05:27:12:048 - info: Retrieving device
+2017-03-01 05:27:12:048 - info: [debug] Trying to find a connected android device
+2017-03-01 05:27:12:049 - info: [debug] Getting connected devices...
+2017-03-01 05:27:12:051 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb devices
+2017-03-01 05:27:12:062 - info: [debug] 1 device(s) connected
+2017-03-01 05:27:12:063 - info: Found device 04c93928881c6417
+2017-03-01 05:27:12:063 - info: [debug] Setting device id to 04c93928881c6417
+2017-03-01 05:27:12:063 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+2017-03-01 05:27:12:064 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 wait-for-device
+2017-03-01 05:27:12:075 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell "echo 'ready'"
+2017-03-01 05:27:12:110 - info: [debug] Starting logcat capture
+2017-03-01 05:27:12:154 - info: [debug] Getting device API level
+2017-03-01 05:27:12:155 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell "getprop ro.build.version.sdk"
+2017-03-01 05:27:12:264 - info: [debug] Device is at API Level 22
+2017-03-01 05:27:12:264 - info: Device API level is: 22
+2017-03-01 05:27:12:265 - info: [debug] Extracting strings for language: default
+2017-03-01 05:27:12:278 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell "getprop persist.sys.language"
+2017-03-01 05:27:12:306 - info: [debug] Current device persist.sys.language: en
+2017-03-01 05:27:12:306 - info: [debug] java -jar "/Applications/appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/appium_apk_tools.jar" "stringsFromApk" "/Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/97_android_client-debug.apk" "/tmp/com.dell.omm" en
+2017-03-01 05:27:13:113 - info: [debug] No strings.xml for language 'en', getting default strings.xml
+2017-03-01 05:27:13:113 - info: [debug] java -jar "/Applications/appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/appium_apk_tools.jar" "stringsFromApk" "/Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/97_android_client-debug.apk" "/tmp/com.dell.omm"
+2017-03-01 05:27:13:773 - info: [debug] Reading strings from converted strings.json
+2017-03-01 05:27:13:774 - info: [debug] Setting language to default
+2017-03-01 05:27:13:775 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 push "/tmp/com.dell.omm/strings.json" /data/local/tmp
+2017-03-01 05:27:13:819 - info: [debug] Checking whether aapt is present
+2017-03-01 05:27:13:819 - info: [debug] Using aapt from /Users/lex/Downloads/SDK/android-sdk-macosx/build-tools/23.0.3/aapt
+2017-03-01 05:27:13:819 - info: [debug] Retrieving process from manifest.
+2017-03-01 05:27:13:819 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/build-tools/23.0.3/aapt dump xmltree /Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/97_android_client-debug.apk AndroidManifest.xml
+2017-03-01 05:27:13:828 - info: [debug] Set app process to: com.dell.omm
+2017-03-01 05:27:13:828 - info: [debug] Not uninstalling app since server not started with --full-reset
+2017-03-01 05:27:13:829 - info: [debug] Checking app cert for /Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/97_android_client-debug.apk.
+2017-03-01 05:27:13:829 - info: [debug] executing cmd: java -jar /Applications/appium.app/Contents/Resources/node_modules/appium/submodules/appium-adb/jars/verify.jar /Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/97_android_client-debug.apk
+2017-03-01 05:27:14:464 - info: [debug] App already signed.
+2017-03-01 05:27:14:464 - info: [debug] Zip-aligning /Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/97_android_client-debug.apk
+2017-03-01 05:27:14:465 - info: [debug] Checking whether zipalign is present
+2017-03-01 05:27:14:465 - info: [debug] Using zipalign from /Users/lex/Downloads/SDK/android-sdk-macosx/build-tools/23.0.3/zipalign
+2017-03-01 05:27:14:466 - info: [debug] Zip-aligning apk.
+2017-03-01 05:27:14:466 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/build-tools/23.0.3/zipalign -f 4 /Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/97_android_client-debug.apk /var/folders/tf/1j1ngrdx3vb3p40jwxn7hdg80000gn/T/11721-3255-8krkeb/appium.tmp
+2017-03-01 05:27:14:540 - info: [debug] MD5 for app is a67dd431cee641d94016a0a68726d18f
+2017-03-01 05:27:14:540 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell "ls /data/local/tmp/a67dd431cee641d94016a0a68726d18f.apk"
+2017-03-01 05:27:14:611 - info: [debug] Getting install status for com.dell.omm
+2017-03-01 05:27:14:611 - info: [debug] Getting device API level
+2017-03-01 05:27:14:611 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell "getprop ro.build.version.sdk"
+2017-03-01 05:27:14:637 - info: [debug] Device is at API Level 22
+2017-03-01 05:27:14:637 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell "pm list packages -3 com.dell.omm"
+2017-03-01 05:27:15:109 - info: [debug] App is not installed
+2017-03-01 05:27:15:109 - info: Installing App
+2017-03-01 05:27:15:109 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell "mkdir -p /data/local/tmp/"
+2017-03-01 05:27:15:134 - info: [debug] Removing any old apks
+2017-03-01 05:27:15:136 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell "ls /data/local/tmp/*.apk"
+2017-03-01 05:27:15:172 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell rm "/data/local/tmp/3921588b147f0b56b331ff9e7b1b4ea0.apk"
+2017-03-01 05:27:15:239 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 push "/Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/97_android_client-debug.apk" /data/local/tmp/a67dd431cee641d94016a0a68726d18f.apk
+2017-03-01 05:27:18:483 - info: [debug] Uninstalling com.dell.omm
+2017-03-01 05:27:18:483 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell "am force-stop com.dell.omm"
+2017-03-01 05:27:19:245 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 uninstall com.dell.omm
+2017-03-01 05:27:19:749 - info: [debug] App was not uninstalled, maybe it wasn't on device?
+2017-03-01 05:27:19:749 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell "pm install -r /data/local/tmp/a67dd431cee641d94016a0a68726d18f.apk"
+2017-03-01 05:27:46:450 - info: [debug] Forwarding system:4725 to device:4724
+2017-03-01 05:27:46:451 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 forward tcp:4725 tcp:4724
+2017-03-01 05:27:46:461 - info: [debug] Pushing appium bootstrap to device...
+2017-03-01 05:27:46:462 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 push "/Applications/appium.app/Contents/Resources/node_modules/appium/build/android_bootstrap/AppiumBootstrap.jar" /data/local/tmp/
+2017-03-01 05:27:46:486 - info: [debug] Pushing settings apk to device...
+2017-03-01 05:27:46:487 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 install "/Applications/appium.app/Contents/Resources/node_modules/appium/build/settings_apk/settings_apk-debug.apk"
+2017-03-01 05:27:57:343 - info: [debug] Pushing unlock helper app to device...
+2017-03-01 05:27:57:344 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 install "/Applications/appium.app/Contents/Resources/node_modules/appium/build/unlock_apk/unlock_apk-debug.apk"
+2017-03-01 05:28:08:181 - info: Starting App
+2017-03-01 05:28:08:181 - info: [debug] Attempting to kill all 'uiautomator' processes
+2017-03-01 05:28:08:181 - info: [debug] Getting all processes with 'uiautomator'
+2017-03-01 05:28:08:182 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell "ps 'uiautomator'"
+2017-03-01 05:28:08:238 - info: [debug] No matching processes found
+2017-03-01 05:28:08:238 - info: [debug] Running bootstrap
+2017-03-01 05:28:08:238 - info: [debug] spawning: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.dell.omm -e disableAndroidWatchers false
+2017-03-01 05:28:08:887 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2017-03-01 05:28:08:887 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
+2017-03-01 05:28:08:887 - info: [debug] [UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:
+2017-03-01 05:28:08:887 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2017-03-01 05:28:08:888 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2017-03-01 05:28:08:888 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2017-03-01 05:28:08:888 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
+2017-03-01 05:28:08:888 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1
+2017-03-01 05:28:08:904 - info: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
+2017-03-01 05:28:08:906 - info: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
+2017-03-01 05:28:08:906 - info: [debug] [BOOTSTRAP] [debug] Loading json...
+2017-03-01 05:28:08:908 - info: [debug] Waking up device if it's not alive
+2017-03-01 05:28:08:909 - info: [debug] Pushing command to appium work queue: ["wake",{}]
+2017-03-01 05:28:08:915 - info: [debug] [BOOTSTRAP] [debug] json loading complete.
+2017-03-01 05:28:08:920 - info: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
+2017-03-01 05:28:08:921 - info: [debug] [BOOTSTRAP] [debug] Client connected
+2017-03-01 05:28:08:921 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
+2017-03-01 05:28:08:921 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-03-01 05:28:08:921 - info: [debug] [BOOTSTRAP] [debug] Got command action: wake
+2017-03-01 05:28:08:924 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2017-03-01 05:28:08:926 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell "dumpsys window"
+2017-03-01 05:28:08:977 - info: [debug] Screen already unlocked, continuing.
+2017-03-01 05:28:08:978 - info: [debug] Pushing command to appium work queue: ["getDataDir",{}]
+2017-03-01 05:28:08:981 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
+2017-03-01 05:28:08:981 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-03-01 05:28:08:981 - info: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
+2017-03-01 05:28:08:982 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"\/data\/local\/tmp"}
+2017-03-01 05:28:08:982 - info: [debug] dataDir set to: /data/local/tmp
+2017-03-01 05:28:08:982 - info: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
+2017-03-01 05:28:08:986 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
+2017-03-01 05:28:08:986 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-03-01 05:28:08:986 - info: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
+2017-03-01 05:28:08:989 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":false}
+2017-03-01 05:28:08:989 - info: [debug] Getting device API level
+2017-03-01 05:28:08:990 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell "getprop ro.build.version.sdk"
+2017-03-01 05:28:09:026 - info: [debug] Device is at API Level 22
+2017-03-01 05:28:09:027 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.dell.omm/com.dell.omm.ui.OmmHomeActivity"
+2017-03-01 05:28:10:029 - info: [debug] Waiting for pkg "com.dell.omm" and activity "com.dell.omm.ui.OmmHomeActivity" to be focused
+2017-03-01 05:28:10:030 - info: [debug] Getting focused package and activity
+2017-03-01 05:28:10:030 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell "dumpsys window windows"
+2017-03-01 05:28:10:095 - info: [debug] executing cmd: /Users/lex/Downloads/SDK/android-sdk-macosx/platform-tools/adb -s 04c93928881c6417 shell "getprop ro.build.version.release"
+2017-03-01 05:28:10:128 - info: [debug] Device is at release version 5.1.1
+2017-03-01 05:28:10:129 - info: [debug] Device launched! Ready for commands
+2017-03-01 05:28:10:129 - info: [debug] Setting command timeout to the default of 60 secs
+2017-03-01 05:28:10:129 - info: [debug] Appium session started with sessionId 05826392-2929-4e72-a97b-e9e5c077caf6
+2017-03-01 05:28:10:135 - info: <-- POST /wd/hub/session 303 58172.314 ms - 74 
+2017-03-01 05:28:10:140 - info: --> GET /wd/hub/session/05826392-2929-4e72-a97b-e9e5c077caf6 {}
+2017-03-01 05:28:10:141 - info: [debug] Responding to client with success: {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"5.1.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"deviceName":"04c93928881c6417","unicodekeyboard":true,"udid":"04c93928881c6417","platformName":"Android","app":"/Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/97_android_client-debug.apk","resetkeyboard":true,"platformVersion":"5.1.1","appPackage":"com.dell.omm","autoAcceptAlerts":true,"appActivity":"com.dell.omm.ui.OmmHomeActivity"},"deviceName":"04c93928881c6417","unicodekeyboard":true,"udid":"04c93928881c6417","platformName":"Android","app":"/Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/97_android_client-debug.apk","resetkeyboard":true,"appPackage":"com.dell.omm","autoAcceptAlerts":true,"appActivity":"com.dell.omm.ui.OmmHomeActivity"},"sessionId":"05826392-2929-4e72-a97b-e9e5c077caf6"}
+2017-03-01 05:28:10:144 - info: <-- GET /wd/hub/session/05826392-2929-4e72-a97b-e9e5c077caf6 200 4.001 ms - 997 {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"5.1.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"deviceName":"04c93928881c6417","unicodekeyboard":true,"udid":"04c93928881c6417","platformName":"Android","app":"/Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/97_android_client-debug.apk","resetkeyboard":true,"platformVersion":"5.1.1","appPackage":"com.dell.omm","autoAcceptAlerts":true,"appActivity":"com.dell.omm.ui.OmmHomeActivity"},"deviceName":"04c93928881c6417","unicodekeyboard":true,"udid":"04c93928881c6417","platformName":"Android","app":"/Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/97_android_client-debug.apk","resetkeyboard":true,"appPackage":"com.dell.omm","autoAcceptAlerts":true,"appActivity":"com.dell.omm.ui.OmmHomeActivity"},"sessionId":"05826392-2929-4e72-a97b-e9e5c077caf6"}
+2017-03-01 05:28:15:154 - info: --> POST /wd/hub/session/05826392-2929-4e72-a97b-e9e5c077caf6/element {"using":"id","sessionId":"05826392-2929-4e72-a97b-e9e5c077caf6","value":"com.dell.omm:id/enter_password_enter_id"}
+2017-03-01 05:28:15:155 - info: [debug] Waiting up to 0ms for condition
+2017-03-01 05:28:15:156 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.dell.omm:id/enter_password_enter_id","context":"","multiple":false}]
+2017-03-01 05:28:15:167 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.dell.omm:id/enter_password_enter_id","context":"","multiple":false}}
+2017-03-01 05:28:15:167 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-03-01 05:28:15:167 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-03-01 05:28:15:168 - info: [debug] [BOOTSTRAP] [debug] Finding com.dell.omm:id/enter_password_enter_id using ID with the contextId:  multiple: false
+2017-03-01 05:28:15:168 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.dell.omm:id/enter_password_enter_id]
+2017-03-01 05:28:15:176 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-03-01 05:28:15:180 - info: [debug] [BOOTSTRAP] [debug] Finding com.dell.omm:id/enter_password_enter_id using ID with the contextId:  multiple: false
+2017-03-01 05:28:15:181 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.dell.omm:id/enter_password_enter_id]
+2017-03-01 05:28:15:192 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-03-01 05:28:15:192 - info: [debug] Condition unmet after 36ms. Timing out.
+2017-03-01 05:28:15:193 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"05826392-2929-4e72-a97b-e9e5c077caf6"}
+2017-03-01 05:28:15:194 - info: <-- POST /wd/hub/session/05826392-2929-4e72-a97b-e9e5c077caf6/element 500 39.897 ms - 195 
+2017-03-01 05:28:18:203 - info: --> POST /wd/hub/session/05826392-2929-4e72-a97b-e9e5c077caf6/element {"using":"id","sessionId":"05826392-2929-4e72-a97b-e9e5c077caf6","value":"com.dell.omm:id/login_button_id"}
+2017-03-01 05:28:18:203 - info: [debug] Waiting up to 0ms for condition
+2017-03-01 05:28:18:204 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.dell.omm:id/login_button_id","context":"","multiple":false}]
+2017-03-01 05:28:18:209 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.dell.omm:id/login_button_id","context":"","multiple":false}}
+2017-03-01 05:28:18:209 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-03-01 05:28:18:209 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-03-01 05:28:18:209 - info: [debug] [BOOTSTRAP] [debug] Finding com.dell.omm:id/login_button_id using ID with the contextId:  multiple: false
+2017-03-01 05:28:18:209 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.dell.omm:id/login_button_id]
+2017-03-01 05:28:18:224 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-03-01 05:28:18:226 - info: [debug] [BOOTSTRAP] [debug] Finding com.dell.omm:id/login_button_id using ID with the contextId:  multiple: false
+2017-03-01 05:28:18:227 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.dell.omm:id/login_button_id]
+2017-03-01 05:28:18:251 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-03-01 05:28:18:254 - info: [debug] Condition unmet after 50ms. Timing out.
+2017-03-01 05:28:18:254 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"05826392-2929-4e72-a97b-e9e5c077caf6"}
+2017-03-01 05:28:18:255 - info: <-- POST /wd/hub/session/05826392-2929-4e72-a97b-e9e5c077caf6/element 500 52.521 ms - 195 

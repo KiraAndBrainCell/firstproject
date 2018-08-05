@@ -1,0 +1,12 @@
+Property
+Value
+Data Center:
+None
+Aisle:
+Rack:
+Slot:
+N/A
+N/A
+N/A
+N/A
+N/A

@@ -1,0 +1,12 @@
+OS
+Windows Server 2012 R2 - 6.3
+Hostname
+WIN-CGNDH44EGEU
+IP Address
+10.35.0.1
+Hardware Logs
+Firmware Details
+Network Details
+Hardware Inventory
+Health Status
+Warranty Information

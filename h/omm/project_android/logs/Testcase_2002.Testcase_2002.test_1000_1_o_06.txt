@@ -1,0 +1,124 @@
+Inside the set up function
+# ****************************************************************************************************
+                                                STEP - Start the appium driver 
+# ****************************************************************************************************
+#####===== Platform is android =========#####
+
+#####===== Desired Caps is {'deviceName': '04c93928881c6417', 'unicodekeyboard': True, 'udid': '04c93928881c6417', 'autoAcceptAlerts': True, 'app': '/Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/83_android_client-debug.apk', 'resetkeyboard': True, 'platformVersion': '5.1.1', 'appPackage': 'com.dell.omm', 'platformName': 'Android', 'appActivity': 'com.dell.omm.ui.OmmHomeActivity'} =====#####
+
+Appium server logs has been saved to logs file - appium_server_logs_201703010411
+Platform for execution is Darwin
+
+###### Platform for execution is Darwin ######
+
+Appium server has started successfully
+
+Driver started successfully
+Appium driver has been started successfully
+# ****************************************************************************************************
+                                                STEP - Logging in to OMM 
+# ****************************************************************************************************
+Element with tag id and identifier com.dell.omm:id/enter_password_enter_id is found
+
+Text box with identifier id=com.dell.omm:id/enter_password_enter_id is edited with value Dell 
+
+Element with tag id and identifier com.dell.omm:id/login_button_id is found
+
+Button element with identifier id=com.dell.omm:id/login_button_id is clicked
+
+# ****************************************************************************************************
+                                                STEP verify  ome devices text  
+# ****************************************************************************************************
+Element with tag id and identifier com.dell.omm:id/top_text is found
+
+clicked on ome device , ome  name is==>10.255.2.2
+Element with tag id and identifier com.dell.omm:id/ome_push_header_top_text is found
+
+text is 10.255.2.2
+
+Element with tag id and identifier com.dell.omm:id/ome_push_header_bottom_text is found
+
+text is HOME
+
+Element with tag name and identifier Devices is found
+
+text is Devices
+
+Element with tag id and identifier com.dell.omm:id/device_count is found
+
+text is 127
+
+Element with tag id and identifier com.dell.omm:id/red_device_number is found
+
+text is 11 Critical
+
+Element with tag id and identifier com.dell.omm:id/yellow_device_number is found
+
+text is 30 Warning
+
+Element with tag id and identifier com.dell.omm:id/green_device_number is found
+
+text is 84 Healthy
+
+Element with tag id and identifier com.dell.omm:id/gray_device_number is found
+
+text is 2 Unknown
+
+Element with tag name and identifier Alerts is found
+
+text is Alerts
+
+Element with tag id and identifier com.dell.omm:id/alerts_count is found
+
+text is 97
+
+Element with tag id and identifier com.dell.omm:id/red_alert_number is found
+
+text is 35 Critical
+
+Element with tag id and identifier com.dell.omm:id/yellow_alert_number is found
+
+text is 0 Warning
+
+Element with tag id and identifier com.dell.omm:id/green_alert_number is found
+
+text is 55 Healthy
+
+Element with tag id and identifier com.dell.omm:id/blue_alert_number is found
+
+text is 0 Info
+
+Element with tag id and identifier com.dell.omm:id/gray_alert_number is found
+
+text is 7 Unknown
+
+10.255.2.2
+HOME
+Devices
+127
+11 Critical
+30 Warning
+84 Healthy
+2 Unknown
+Alerts
+97
+35 Critical
+0 Warning
+55 Healthy
+0 Info
+7 Unknown
+  Ome device  home page  text verified successfully,ome device name is10.255.2.2
+Element with tag name and identifier Alerts is found
+
+Element with tag name and identifier Alerts is found
+
+text is Alerts
+
+Current text returned by UI is==>Alerts
+Alerts text has been found!!!
+Element with tag id and identifier com.dell.omm:id/cust_spinner_view is found
+
+clicked on alert drop down to get=> All Alerts
+Element with tag id and identifier com.dell.omm:id/cust_spinner_view is found
+
+cl

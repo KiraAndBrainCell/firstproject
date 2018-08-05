@@ -1,0 +1,192 @@
+"""
+Owner : Nithya_V
+
+Date created : 28/4/2016
+
+Description:
+    Various parameters which needs to be used in common across different
+    common modules
+
+"""
+import os
+from libs.product.omm.standard import util
+
+'#######################################'
+'current directory'
+'#######################################'
+
+current_dir = os.getcwd()
+
+'#############################################################'
+'global variables for which data will be assigned on run time'
+'#############################################################'
+
+'appium driver object. Value will be assigned on appium server start'
+driver = None
+
+'Object repository dictionary. Values will be loaded on first test case execution'
+object_repository = {}
+
+'Test case verification dictionary'
+tc_verfn_dict = {}
+
+'Android version of the device'
+android_version = None
+
+'Device id of android device connected to the system'
+android_device_id = None
+
+'#######################################'
+'device configurations'
+'#######################################'
+
+'Standard appium server address which we use for execution'
+server_address = "http://127.0.0.1:4723/wd/hub"
+
+'App package for OMM execution'
+app_package = 'com.dell.omm'
+
+'App activity for OMM execution'
+app_activity = 'com.dell.omm.ui.OmmHomeActivity'
+
+'#######################################'
+'Config parameters'
+'#######################################'
+
+'Getting configuration dictionary by reading config.ini file'
+conf_dict = util.get_config_params()
+
+'platform of execution - android or ios'
+platform = str(conf_dict['Open_Manage_mobile']['platform']).lower()
+
+'Android build file name kept in inputs folder'
+android_buildFile_name = conf_dict['Open_Manage_mobile']['android_build_filename']
+
+'ios build file name kept in inputs folder'
+ios_buildFile_name = conf_dict['Open_Manage_mobile']['ios_build_filename']
+
+'password value as provided by the user in config.ini'
+password = conf_dict['Open_Manage_mobile']['password']
+
+'password hint as provided by the user in config.ini'
+password_hint = conf_dict['Open_Manage_mobile']['password_hint']
+
+'IOS Version number'
+ios_version_number = conf_dict['Open_Manage_mobile']['ios_version_number']
+
+'IOS Build Number'
+ios_build_number = conf_dict['Open_Manage_mobile']['ios_build_number']
+
+'Android Version Number'
+android_version_no = conf_dict['Open_Manage_mobile']['android_version_number']
+
+'Android Build Number'
+android_build_no = conf_dict['Open_Manage_mobile']['android_build_number']
+
+'Platform version for IOS device'
+platform_version = None
+
+'ios device name'
+device_name = None
+
+'ios bundle id'
+bundleid = 'beta.dell.com'
+
+'ios udid'
+udid = None
+
+'#######################################'
+'File paths'
+'#######################################'
+
+'Input file path in which test case input such as devices details etc will be stored'
+tc_input_file_path = current_dir + "/inputs/omm/omm_tc_info.xml"
+
+'File path in which appium server logs will be redirected and saved'
+appium_log_file_path = current_dir + "/logs/"
+
+'Path in which object repository with ui object details are stored'
+obj_repo_path = current_dir + "/inputs/omm/omm_object_repository.csv"
+
+'Path in which android build for execution has been saved'
+apk_path = current_dir + "/inputs/omm/builds/android/"
+
+'Path in which ios build for execution has been saved'
+ipa_path = current_dir + "/inputs/omm/builds/ios/"
+
+'Path in which screenshots on failure will be captured'
+screenshot_path = current_dir + "/logs/screenshots/"
+
+'Path of license agreement verification input file'
+license_agrmt_input = current_dir + "/inputs/omm/verification_inputs/LicenseAgreement.txt"
+shareAppData_input = current_dir + "/inputs/omm/verification_inputs/ShareAppData.txt"
+DemoMode_input = current_dir + "/inputs/omm/verification_inputs/DemoMode.txt"
+
+'#######################################'
+'Commands'
+'#######################################'
+
+'Command to get deviced id of android devices connected to the Management Station'
+android_deviceID_cmd = 'adb devices'
+
+'Command to get android version of the device connected'
+android_version_cmd = 'adb shell getprop ro.build.version.release'
+
+'Command to start appium server'
+android_appServer_start_cmd =  ('"' + 'C:/Program Files (x86)/Appium/node.exe' + '" ' + '"') + \
+                'C:/Program Files (x86)/Appium/node_modules/appium/bin/Appium.js' + \
+                ('"' + ' --address 127.0.0.1 --chromedriver-port 9516 --bootstrap-port 4725' ) + \
+                (' --selendroid-port 8082 --no-reset --local-timezone --log ') + appium_log_file_path
+
+and_get_installed_packs_cmd = 'adb shell pm list packages'
+
+android_uninstall_cmd = 'adb uninstall ' + app_package
+
+ios_appServer_start_cmd = 'Node /Applications/appium.app/Contents/Resources/node_modules/appium/bin/appium.js --address 127.0.0.1 --port 4723 --no-reset --log ' + appium_log_file_path
+
+'IOS command for getting UDID'
+ios_udid_cmd = 'system_profiler SPUSBDataType | sed -n \'/iPhone/,/Serial/p\' | grep "Serial Number:" | awk -F ": " \'{print $2}\''
+
+
+'IOS command for getting platform version and device name'
+ios_devName_platformver_cmd = 'instruments -s devices'
+
+'IOS command for uninstalling app'
+ios_uninstall_cmd = 'ideviceinstaller -u udid -U %s' % bundleid
+
+'winrm command'
+winrm_enumerate_command = 'winrm e http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/root/dcim/'
+
+winrm_get_command = 'winrm g http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/root/dcim/'
+
+winrm_invoke_powerstate_command = 'winrm i RequestPowerStateChange cimv2/root/dcim/DCIM_CSPowerManagementService?SystemCreationClassName=DCIM_SPComputerSystem+SystemName=systemmc+CreationClassName=DCIM_CSPowerManagementService+Name=pwrmgtsvc:1'
+
+'#######################################'
+'WSMAN class names'
+'#######################################'
+systemView_classname = 'DCIM_SystemView'
+
+cpuView_classname = 'DCIM_CPUView'
+
+memoryView_classname ='DCIM_MemoryView'
+
+powersupplyView_classname = 'DCIM_PowerSupplyView'
+
+powerManagementService_classname = 'DCIM_CSAssociatedPowerManagementService'
+
+systemString_classname = 'DCIM_SystemString'
+
+lcd_instanceid = 'System.Embedded.1#LCD.1#CurrentDisplay'
+
+osname_instanceid = 'System.Embedded.1#ServerOS.1#OSName'
+
+osversion_instanceid = 'System.Embedded.1#ServerOS.1#OSVersion'
+
+'#######################################'
+'Verification texts'
+'#######################################'
+shareApp_data = "You can help Dell improve this app by sharing anonymous use data."
+shareApp_data_ios = "Anonymous Analytics and Usage"
+ios_homeScreen_label = 'OpenManage Essentials'
+aboutScreen_label = 'About'
+android_homeScreen_label = 'OpenManage Mobile'

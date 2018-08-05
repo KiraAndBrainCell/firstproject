@@ -1,0 +1,146 @@
+""""
+This module contains all the modules related to idrac common functions
+"""
+import traceback
+import collections
+from libs.product.omm.standard import global_vars
+import pyodbc
+
+    
+def db_get_totalcount(table_name):
+    """
+    This function is used for getting database query results of total count of devices and events
+
+    Function Owner : Abdul_G_Shaik
+
+    Date created : 06/15/2016
+
+    @param table_name : (string) Database Table Name 
+
+    @return rows : (string) Return the number of records available in DB for respective table
+    """
+    try:
+        'establish DB Connection'
+        cnxn = pyodbc.connect('DSN=MYSERVER;UID=sa;PWD=dell_123')
+        cursor = cnxn.cursor()
+        
+        'Form the SQL query and execute'
+        sql_query = "select count(*) from OMEssentials.dbo."+table_name
+        cursor.execute(sql_query)
+        
+        'Fetch the row'
+        rows = cursor.fetchone()[0]
+        print 'Command Output:' + str(rows)
+
+        'Close the connection'
+        cursor.close()
+
+        return str(rows)
+    except:
+        traceback.print_exc()
+        return None
+
+def db_all_device_event_count(table_name, status):
+    """
+    This function is used for getting database query results of various type devices statuses and events severities
+
+    Function Owner : Abdul_G_Shaik
+
+    Date created : 06/15/2016
+
+    @param table_name : (string) Database Table Name 
+    @param status : (string) Status code number
+
+    @return rows : (string) Return the number of records available in DB for respective health status or event severity
+    
+    For Device Health Status:
+        0 - None
+        2 - Unknown
+        4 - Normal
+        8 - Warning
+        16 - Critical
+        32 - DefaultVM
+        
+        for Event Severity:
+        1 - Unknown
+        2 - Info
+        4 - Normal
+        8 - Warning
+        16 - Critical
+        32 - Irrecoverable
+        100 - Interpreted
+    """
+    try:
+        'establish DB Connection'
+        cnxn = pyodbc.connect('DSN=MYSERVER;UID=sa;PWD=dell_123')
+        cursor = cnxn.cursor()
+        
+        'Form the SQL query and execute'
+        if table_name == "Device":
+            column_name = "DeviceGlobalStatus"
+        elif table_name == "Event":
+            column_name = "Severity"
+        sql_query = "select count(*) from OMEssentials.dbo."+table_name+" where "+column_name+" = "+status
+        cursor.execute(sql_query)  
+        
+        'Fetch the row'
+        rows = cursor.fetchone()[0]
+        print 'Command Output:' + str(rows)
+
+        'Close the connection'
+        cursor.close()
+
+        return rows
+    except:
+        traceback.print_exc()
+        return None
+
+
+def convert_code_to_description(table_name, status):
+    """
+    This function will accept the status code and return the Health Status description
+    This function will accept the status code and return the Event Severity description
+
+    Function Owner : Abdul_G_Shaik
+
+    Date created : 06/15/2016
+
+    @param table_name : (string) Database Table Name 
+    @param status : (string) Status code number
+
+    @return new_attribute_value : (string) New value after conversion
+    """
+    try:
+        status = str(status)
+        if table_name == "Device":
+            if status == "0":
+                return "None"
+            elif status == "2":
+                return "Unknown"
+            elif status == "4":
+                return "Healthy"
+            elif status == "8":
+                return "Warning"
+            elif status == "16":
+                return "Critical"
+            elif status == "32":
+                return "DefaultVM"
+        elif table_name == "Event":
+            if status == "1":
+                return "Unknown"
+            elif status == "2":
+                return "Info"
+            elif status == "4":
+                return "Healthy"
+            elif status == "8":
+                return "Warning"
+            elif status == "16":
+                return "Critical"
+            elif status == "32":
+                return "Irrecoverable"
+            elif status == "100":
+                return "Interpreted"
+    except:
+        traceback.print_exc()
+        return ''
+

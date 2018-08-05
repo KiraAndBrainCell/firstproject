@@ -1,0 +1,444 @@
+Inside the set up function
+# ****************************************************************************************************
+                                                STEP - Start the appium driver 
+# ****************************************************************************************************
+#####===== Platform is android =========#####
+
+#####===== Desired Caps is {'deviceName': '04c93928881c6417', 'unicodekeyboard': True, 'udid': '04c93928881c6417', 'autoAcceptAlerts': True, 'app': '/Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/83_android_client-debug.apk', 'resetkeyboard': True, 'platformVersion': '5.1.1', 'appPackage': 'com.dell.omm', 'platformName': 'Android', 'appActivity': 'com.dell.omm.ui.OmmHomeActivity'} =====#####
+
+Appium server logs has been saved to logs file - appium_server_logs_201703010521
+Platform for execution is Darwin
+
+###### Platform for execution is Darwin ######
+
+Appium server has started successfully
+
+Driver started successfully
+Appium driver has been started successfully
+# ****************************************************************************************************
+                                                STEP - Logging in to OMM 
+# ****************************************************************************************************
+Element with tag id and identifier com.dell.omm:id/enter_password_enter_id is found
+
+Text box with identifier id=com.dell.omm:id/enter_password_enter_id is edited with value Dell 
+
+Element with tag id and identifier com.dell.omm:id/login_button_id is found
+
+Button element with identifier id=com.dell.omm:id/login_button_id is clicked
+
+# ****************************************************************************************************
+                                                STEP - Verify  idrac devices home page text 
+# ****************************************************************************************************
+Element with tag id and identifier com.dell.omm:id/top_text is found
+
+clicked on ome device , ome  name is==>10.35.0.1
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/ip_address_value is found
+
+text is 10.35.0.1
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/memory_info_id is found
+
+text is Memory
+
+Element with tag id and identifier com.dell.omm:id/ip_address_value is found
+
+text is 10.35.0.1
+
+Element with tag id and identifier com.dell.omm:id/os_info_id is found
+
+text is OS
+
+Element with tag id and identifier com.dell.omm:id/hostname_info_id is found
+
+text is Hostname
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/memory_info_value is found
+
+text is 16 GB
+
+Element with tag id and identifier com.dell.omm:id/os_info_value is found
+
+text is Windows Server 2012 R2 - 6.3
+
+Element with tag id and identifier com.dell.omm:id/hostname_info_value is found
+
+text is WIN-CGNDH44EGEU
+
+Element with tag id and identifier com.dell.omm:id/ip_address_value is found
+
+text is 10.35.0.1
+
+Element with tag id and identifier com.dell.omm:id/lcl_logs_id is found
+
+text is Hardware Logs
+
+Element with tag id and identifier com.dell.omm:id/fw_info_id is found
+
+text is Firmware Details
+
+Element with tag id and identifier com.dell.omm:id/network_info_id is found
+
+text is Network Details
+
+Element with tag id and identifier com.dell.omm:id/hardware_info_id is found
+
+text is Hardware Inventory
+
+Element with tag id and identifier com.dell.omm:id/health_info_id is found
+
+text is Health Status
+
+Element with tag id and identifier com.dell.omm:id/warranty_info_id is found
+
+text is Warranty Information
+
+Element with tag id and identifier com.dell.omm:id/location_info_id is found
+
+text is Location Details
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+Power State
+ON
+Service Tag
+10.35.0.1
+Device Model
+Memory
+10.35.0.1
+OS
+Hostname
+IP Address
+16 GB
+Windows Server 2012 R2 - 6.3
+WIN-CGNDH44EGEU
+10.35.0.1
+Hardware Logs
+Firmware Details
+Network Details
+Hardware Inventory
+Health Status
+Warranty Information
+Location Details
+Online Resources
+ idrac device  home page  text verified successfully, idrac device is ==>10.35.0.1
+Element with tag id and identifier com.dell.omm:id/location_info_id is found
+
+Element with tag name and identifier Location Information is found
+
+text is Location Information
+
+Current text returned by UI is==>Location Information
+Location Information text has been found!!!
+Element with tag id and identifier com.dell.omm:id/rac_fw_header_name_id is found
+
+text is Property
+
+Element with tag id and identifier com.dell.omm:id/rac_fw_header_version_id is found
+
+text is Value
+
+Element with tag id and identifier com.dell.omm:id/data_id is found
+
+text is Data Center:
+
+Element with tag id and identifier com.dell.omm:id/roomname_label is found
+
+text is Room:
+
+Element with tag id and identifier com.dell.omm:id/id_aisle is found
+
+text is Aisle:
+
+Element with tag id and identifier com.dell.omm:id/ty_config_id is found
+
+text is Rack:
+
+Element with tag id and identifier com.dell.omm:id/slot_id is found
+
+text is Slot:
+
+Element with tag id and identifier com.dell.omm:id/datacenter_address_id is found
+
+text is DataCenter7
+
+Element with tag id and identifier com.dell.omm:id/room_address_id is found
+
+text is Room38
+
+Element with tag id and identifier com.dell.omm:id/aisle_address_id is found
+
+text is Aisle4
+
+Element with tag id and identifier com.dell.omm:id/rack_address_id is found
+
+text is Rack1
+
+Element with tag id and identifier com.dell.omm:id/rack_address_id is found
+
+text is Rack1
+
+Property
+Value
+Data Center:
+Room:
+Aisle:
+Rack:
+Slot:
+DataCenter7
+Room38
+Aisle4
+Rack1
+Rack1
+ idrac device location details  text verified successfully
+Element with tag id and identifier com.dell.omm:id/lcl_logs_id is found
+
+Element with tag name and identifier Hardware Log is found
+
+text is Hardware Log
+
+Current text returned by UI is==>Hardware Log
+Hardware Log text has been found!!!
+Element with tag id and identifier com.dell.omm:id/cust_spinner_view is found
+
+clicked on alert drop down to get=> System Event Log
+Element with tag id and identifier com.dell.omm:id/cust_spinner_view is found
+
+clicked on alert, alert name is==>System Event Log
+Element with tag id and identifier com.dell.omm:id/se_log_text_top is found
+
+alerts which are displaying=> System Event Log
+Element with tag id and identifier com.dell.omm:id/cust_spinner_view is found
+
+clicked on alert drop down to get=> Lifecycle Log
+Element with tag id and identifier com.dell.omm:id/cust_spinner_view is found
+
+clicked on alert, alert name is==>Lifecycle Log
+Element with tag id and identifier com.dell.omm:id/lc_log_text_top is found
+
+alerts which are displaying=> Lifecycle Log
+Element with tag id and identifier com.dell.omm:id/health_info_id is found
+
+Element with tag name and identifier Health Status is found
+
+text is Health Status
+
+Current text returned by UI is==>Health Status
+Health Status text has been found!!!
+Element with tag id and identifier com.dell.omm:id/rac_fw_header_name_id is found
+
+text is Property
+
+Element with tag id and identifier com.dell.omm:id/rac_fw_header_version_id is found
+
+text is Value
+
+Element with tag id and identifier com.dell.omm:id/temperature_row_name is found
+
+text is Temperature
+
+Element with tag id and identifier com.dell.omm:id/power_row_name is found
+
+text is Power
+
+Element with tag id and identifier com.dell.omm:id/health_storage_id is found
+
+text is Storage
+
+Element with tag id and identifier com.dell.omm:id/health_battery_id is found
+
+text is Battery
+
+Element with tag id and identifier com.dell.omm:id/health_fan_id is found
+
+text is Fan
+
+Element with tag id and identifier com.dell.omm:id/health_intrusion_id is found
+
+text is Intrusion
+
+Element with tag id and identifier com.dell.omm:id/health_powersupply_id is found
+
+text is Power
+
+Element with tag id and identifier com.dell.omm:id/health_removablemedia_id is found
+
+text is Removable Flash Media
+
+Element with tag id and identifier com.dell.omm:id/health_temperature_id is found
+
+text is Temperature
+
+Element with tag id and identifier com.dell.omm:id/health_voltage_id is found
+
+text is Voltage
+
+Property
+Value
+Temperature
+Power
+Storage
+Battery
+Fan
+Intrusion
+Power
+Removable Flash Media
+Temperature
+Voltage
+ idrac device health status  text verified successfully
+Element with tag class and identifier android.widget.ImageButton is found
+
+Button element with identifier class=android.widget.ImageButton is clicked
+
+clicked on main menu button to get option Home
+Element with tag class and identifier android.widget.TextView is found
+
+clicked on page, page name is==>Home
+Element with tag id and identifier com.dell.omm:id/top_text is found
+
+clicked on ome device , ome  name is==>10.35.0.3
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/ip_address_value is found
+
+text is 10.35.0.3
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/memory_info_id is found
+
+text is Memory
+
+Element with tag id and identifier com.dell.omm:id/ip_address_value is found
+
+text is 10.35.0.3
+
+Element with tag id and identifier com.dell.omm:id/os_info_id is found
+
+text is OS
+
+Element with tag id and identifier com.dell.omm:id/hostname_info_id is found
+
+text is Hostname
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/memory_info_value is found
+
+text is 16 GB
+
+Element with tag id and identifier com.dell.omm:id/os_info_value is found
+
+text is Windows Server 2012 R2 - 6.3
+
+Element with tag id and identifier com.dell.omm:id/hostname_info_value is found
+
+text is WIN-CGNDH44EGEU
+
+Element with tag id and identifier com.dell.omm:id/ip_address_value is found
+
+text is 10.35.0.3
+
+Element with tag id and identifier com.dell.omm:id/lcl_logs_id is found
+
+text is Hardware Logs
+
+Element with tag id and identifier com.dell.omm:id/fw_info_id is found
+
+text is Firmware Details
+
+Element with tag id and identifier com.dell.omm:id/network_info_id is found
+
+text is Network Details
+
+Element with tag id and identifier com.dell.omm:id/hardware_info_id is found
+
+text is Hardware Inventory
+
+Element with tag id and identifier com.dell.omm:id/health_info_id is found
+
+text is Health Status
+
+Element with tag id and identifier com.dell.omm:id/warranty_info_id is found
+
+text is Warranty Information
+
+Element with tag id and identifier com.dell.omm:id/location_info_id is found
+
+text is Location Details
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+Power State
+ON
+Service Tag
+10.35.0.3
+Device Model
+Memory
+10.35.0.3
+OS
+Hostname
+IP Address
+16 GB
+Windows Server 2012 R2 - 6.3
+WIN-CGNDH44EGEU
+10.35.0.3
+Hardware Logs
+Firmware Details
+Network Details
+Hardware Inventory
+Health Status
+Warranty Information
+Location Details
+Online Resources
+ idrac device  home page  text verified successfully, idrac device is ==>10.35.0.3
+Element with tag id and identifier com.dell.omm:id/location_info_id is found
+
+Element with tag name and identifier Location Information is not found
+
+Current text returned by UI is==>None
+Location Information text does not exist and it is returning empty value.
+Element with tag id and identifier com.dell.omm:id/rac_fw_header_name_id is not found
+
+Element with tag id and identifier com.dell.omm:id/rac_fw_header_version_id is not found
+
+Element with tag id and identifier com.dell.omm:id/data_id is not found
+
+Element with tag id and identifier com.dell.omm:id/roomname_label is not

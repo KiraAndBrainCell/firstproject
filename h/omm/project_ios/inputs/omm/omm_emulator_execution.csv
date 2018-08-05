@@ -1,0 +1,4 @@
+Device Name,Execution Status,Testcases to execute
+Google Nexus 5X - 6.0.0 - API 23 - 1080x1920,YES,#'ESG_TC_53798'
+Google Nexus 5 - 6.0.0 - API 23 - 1080x1920,YES,#'ESG_TC_53798'
+Google Nexus 10 - 5.0.0 - API 21 - 2560x1600,YES,#'ESG_TC_53798'

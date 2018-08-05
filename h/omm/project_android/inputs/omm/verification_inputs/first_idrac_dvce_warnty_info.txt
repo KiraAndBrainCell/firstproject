@@ -1,0 +1,17 @@
+Service Tag:
+Description:
+Shipped Date:
+Nov 3, 2004 1:00:00 PM EST
+Customer Number:
+2021352
+Order Number:
+82249553
+Country Code:
+Sweden
+Warranties
+Service
+Next Business Day
+Service Type
+Start Date
+End Date
+Nov 3, 2007 2:59:59 PM EDT

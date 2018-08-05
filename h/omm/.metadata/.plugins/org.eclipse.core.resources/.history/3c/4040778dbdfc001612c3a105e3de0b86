@@ -1,0 +1,45 @@
+[Information]
+name=My Test
+description=My Custom Test Description
+author=nagarjuna
+build_id=165
+version = 2.0
+
+[dellunit]
+tests = ('ESG_TC_53806')
+verbosity = debug
+retry_failed = 0
+timestamp_report = 0
+separate_output = 1
+wipe_logs = 0
+mail_users = ''
+logfolder = logs
+
+[Open_Manage_mobile]
+platform = ios
+android_build_filename = 166_android_client-debug.apk
+ios_build_filename = 165_dell omm dev.ipa
+app_name = dellOMM
+password = Dell
+password_hint = office
+new_password = Dell5
+new_password_hint = office5
+
+windows_ip = 100.100.17.103
+windows_username = administrator
+windows_password = dell_123
+device_type = real
+device_name = Google Nexus 10 - 5.0.0 - API 21 - 2560x1600
+appium_portnum = 4723
+appium_bootstrapport = 4725
+appium_chromedriverport = 9516
+
+ios_version_number = 2.0
+ios_build_number = 166
+android_version_number = 2.0.0.83
+android_build_number = 27
+
+
+
+
+

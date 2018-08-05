@@ -1,0 +1,20 @@
+<omm_input>
+    	<ESG_TC_53800>
+        	<idrac_ip>10.94.238.6</idrac_ip>
+        	<idrac_username>test</idrac_username>
+        	<idrac_password>dell123</idrac_password>
+    	</ESG_TC_53800>
+    	<ESG_TC_53806>
+        	<idrac_ip>10.94.238.7</idrac_ip>
+        	<idrac_username>test</idrac_username>
+        	<idrac_password>dell123</idrac_password>
+    	</ESG_TC_53806>
+    	<ESG_TC_53799>
+    		<ome_ip>100.100.17.101</ome_ip>
+            <ome_username>administrator</ome_username>
+    		<ome_port>2607</ome_port>
+    		<ome_password>Lexington123</ome_password>
+    		<device_health>0, 2, 4, 8, 16, 32</device_health>
+    		<event_severity>1, 2, 4, 8, 16, 32, 100</event_severity>
+		</ESG_TC_53799>
+</omm_input>

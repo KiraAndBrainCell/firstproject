@@ -1,0 +1,56 @@
+<omm_input>
+    	<ESG_TC_53800>
+        	<idrac_ip>100.100.230.158</idrac_ip>
+        	<idrac_username>root</idrac_username>
+        	<idrac_password>calvin</idrac_password>
+    	</ESG_TC_53800>
+    	<ESG_TC_53806>
+        	<idrac_ip>100.100.230.186</idrac_ip>
+        	<idrac_username>root</idrac_username>
+        	<idrac_password>calvin</idrac_password>
+    	</ESG_TC_53806>
+    	<ESG_TC_53799>
+    		<ome_ip>100.100.16.50</ome_ip>
+            <ome_username>administrator</ome_username>
+    		<ome_port>2607</ome_port>
+    		<ome_password>Lexington123</ome_password>
+    		<device_health>0, 2, 4, 8, 16, 32</device_health>
+    		<event_severity>1, 2, 4, 8, 16, 32, 100</event_severity>
+		</ESG_TC_53799>
+	<Testcase_100>
+		<ome_1_ip>10.94.193.123</ome_1_ip>
+		<ome_1_username>administrator</ome_1_username>
+		<ome_1_password>dell_123</ome_1_password>
+		<ome_1_portnum>445</ome_1_portnum>
+	</Testcase_100>
+	<Testcase_101>
+		<ome_2_ip>10.94.195.134</ome_2_ip>
+		<ome_2_username>administrator</ome_2_username>
+		<ome_2_password>dell_123</ome_2_password>
+		<ome_2_portnum>445</ome_2_portnum>
+	</Testcase_101>
+	<Testcase_102>
+		<idrac_1_ip>10.94.193.183</idrac_1_ip>
+		<idrac_1_username>administrator</idrac_1_username>
+		<idrac_1_password>dell_123</idrac_1_password>
+		<idrac_1_portnum>445</idrac_1_portnum>
+	</Testcase_102>
+	<Testcase_1200>
+		<idrac_ip>100.100.230.158</idrac_ip>
+		<idrac_username>root</idrac_username>
+		<idrac_password>calvin</idrac_password>
+		<idrac_portnum>443</idrac_portnum>
+	</Testcase_1200>
+	<ESG_TC_53808>
+		<idrac_ip>100.100.15.50</idrac_ip>
+		<idrac_username>root</idrac_username>
+		<idrac_password>calvin</idrac_password>
+		<idrac_portnum>443</idrac_portnum>
+	</ESG_TC_53808>
+	<Testcase_2003>
+    	<ome_ip>100.100.16.50</ome_ip>
+        <ome_username>administrator</ome_username>
+    	<ome_port>2607</ome_port>
+    	<ome_password>Lexington123</ome_password>
+	</Testcase_2003>
+</omm_input>

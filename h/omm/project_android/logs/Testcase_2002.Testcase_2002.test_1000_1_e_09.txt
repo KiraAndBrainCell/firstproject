@@ -1,0 +1,7 @@
+2017-03-01 12:47:52 INFO [Testcase_2002.Testcase_2002.test_1000_1] Step 1 Started.
+2017-03-01 12:48:08 INFO [Testcase_2002.Testcase_2002.test_1000_1] Step 1 Completed.
+2017-03-01 12:48:08 INFO [Testcase_2002.Testcase_2002.test_1000_1] Step 2 Started.
+2017-03-01 12:55:46 INFO [Testcase_2002.Testcase_2002.test_1000_1] Step 2 Completed.
+2017-03-01 12:55:46 INFO [Testcase_2002.Testcase_2002.test_1000_1] Step 3 Started.
+2017-03-01 13:02:09 INFO [Testcase_2002.Testcase_2002.test_1000_1] Step 3 Completed.
+2017-03-01 13:02:10 ANOU [Testcase_2002.Testcase_2002.test_1000_1] PASS

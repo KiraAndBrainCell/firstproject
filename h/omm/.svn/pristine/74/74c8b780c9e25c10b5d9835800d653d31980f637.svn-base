@@ -1,0 +1,329 @@
+import traceback
+from libs.product.omm.standard import util
+from libs.product.omm.standard import global_vars
+from libs.product.omm.omm_idrac import ui_idrac
+from libs.product.omm.omm_ome import ui_ome
+from libs.product.omm.omm_generic import ui_generic
+from libs.product.omm.standard.appium_handler import appium_handler
+
+
+appium_handler = appium_handler()
+
+
+class Steps():
+
+    def __init__(self, *args, **kwargs):
+        pass
+
+
+class Common(Steps):
+
+    def step_start_driver(self):
+        """
+        Start the appium driver
+        """
+        status, msg = False, ""
+        try:
+            util.step("- Start the appium driver")
+            flag, msg = appium_handler.start_driver()
+            if flag:
+                print "Appium driver has been started successfully"
+                status = True
+            else:
+                print "Appium driver has not been started successfully"
+        except Exception as excp:
+            traceback.print_exc()
+            msg += str(excp)
+            status = False
+        return status, msg
+
+    def step_quit_driver(self):
+        """
+        Quit driver and stop server/app
+        """
+        status, msg = False, ""
+        try:
+            util.step("- Quit appium driver and stop server/app")
+            flag, msg = appium_handler.quit_driver()
+            if flag:
+                status = True
+            else:
+                print "Appium driver/server has not been terminated successfully"
+        except Exception as excp:
+            traceback.print_exc()
+            msg += str(excp)
+            status = False
+        return status, msg
+
+
+class Omm_class(Steps):
+
+    def step_accept_license(self, data, args):
+        """
+        Accept the license agreement
+        """
+        util.step("- Accept the license")
+        expectedResult = "User should be able to accept the license successfully"
+        flag, msg = ui_generic.accept_license()
+        pass_message = "License has been accepted successfully"
+        fail_message = "License has not been accepted successfully - %s" % msg
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag
+
+    def step_dont_share(self, data, args):
+        """
+        Do not share the app with developers
+        """
+        util.step("- Do not share the app")
+        expectedResult = "User should be able to select Dont share successfully"
+        flag, msg = ui_generic.dnt_share_app()
+        pass_message = "Do not share the app has been selected successfully"
+        fail_message = "Do not share the app  has not been selected successfully - %s" % msg
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag
+
+    def step_create_password(self, data, args):
+        """
+        Create password before login
+        """
+        util.step("- Create password before login")
+        expectedResult = "User should be able to create password successfully"
+        flag, msg = ui_generic.create_pwd_login()
+        pass_message = "Create password has been selected successfully"
+        fail_message = "Create password has not been selected successfully - %s" % msg
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag
+
+    def step_trydemo_continue(self, data, args):
+        """
+        Try demo mode and continue
+        """
+        util.step("- Try demo mode and continue")
+        expectedResult = "User should be able continue by selecting Try demo mode option"
+        flag, msg = ui_generic.try_demo_continue()
+        pass_message = "Try demo mode has been selected successfully"
+        fail_message = "Try demo mode has not been selected successfully - %s" % msg
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag
+
+    def step_add_idrac(self, data, args):
+        """
+        Enter idrac ip and credentials
+        """
+        util.step("- add iDRAC")
+        expectedResult = "User should be to able to add iDRAC successfully"
+        idrac_ip = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_ip']
+        idrac_username = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_username']
+        idrac_password = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_password']
+        flag, msg = ui_idrac.add_idrac(idrac_ip, idrac_username, idrac_password)
+        pass_message = "iDRAC added successfully"
+        fail_message = "iDRAC not added successfully - %s" % msg
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag
+
+    def step_verify_idrac_basic_inventory(self, data, args):
+        """
+        Verify iDRAC Basic Inventory
+        """
+        util.step("- Verify Basic Inventory")
+        expectedResult = "Basic Inventory should be displayed correctly"
+        windows_ip = args[0].windows_ip
+        windows_username = args[0].windows_username
+        windows_password = args[0].windows_password
+        idrac_ip = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_ip']
+        idrac_username = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_username']
+        idrac_password = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_password']
+        flag, msg = ui_idrac.verify_idrac_basic_inventory(idrac_ip, idrac_username,
+                                    idrac_password, windows_ip, windows_username, windows_password)
+        pass_message = "Basic Inventory displayed correctly"
+        fail_message = "Basic Inventory not displayed correctly - %s" % msg
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag
+
+    def step_delete_idrac(self, data, args):
+        """
+        Delete iDRAC
+        """
+        util.step("- Delete idrac")
+        expectedResult = "User should be able to delete iDRAC"
+        idrac_ip = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_ip']
+        flag, msg = ui_idrac.delete_idrac(idrac_ip)
+        pass_message = "iDRAC deleted successfully"
+        fail_message = "iDRAC not deleted - %s" % msg
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag
+
+    def step_open_power_options(self, data, args):
+        """
+        Navigate to Power Options screen
+        """
+        util.step("- Navigate to Power Options screen")
+        expectedResult = "User should be able to navigate to Power Options Screen"
+        flag, msg = ui_idrac.open_power_options()
+        pass_message = "Power Options screen opened successfully"
+        fail_message = "Power Options screen not opened successfully - %s" % msg
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag
+
+    def step_perform_power_on_action(self, data, args):
+        """
+        Perform power on action
+        """
+        util.step("- Perform power on action")
+        expectedResult = "User should be able to perform power on action"
+        windows_ip = args[0].windows_ip
+        windows_username = args[0].windows_username
+        windows_password = args[0].windows_password
+        idrac_ip = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_ip']
+        idrac_username = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_username']
+        idrac_password = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_password']
+        flag, msg = ui_idrac.perform_power_on_action(idrac_ip, idrac_username,
+                                                    idrac_password, windows_ip, windows_username, windows_password)
+        pass_message = "Power on action performed successfully"
+        fail_message = "Power on action not performed successfully - %s" % msg
+        print 'Flag inside step'
+        print flag
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag
+
+    def step_perform_shutdown_action(self, data, args):
+        """
+        Perform shutdown action
+        """
+        util.step("- Perform shutdown action")
+        expectedResult = "User should be able to perform shutdown action"
+        windows_ip = args[0].windows_ip
+        windows_username = args[0].windows_username
+        windows_password = args[0].windows_password
+        idrac_ip = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_ip']
+        idrac_username = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_username']
+        idrac_password = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_password']
+        flag, msg = ui_idrac.perform_shutdown_action(idrac_ip, idrac_username,
+                                                    idrac_password, windows_ip, windows_username, windows_password)
+        pass_message = "Shutdown action performed successfully"
+        fail_message = "Shutdown action not performed successfully - %s" % msg
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag
+
+    def step_perform_power_cycle_action(self, data, args):
+        """
+        Perform power cycle action
+        """
+        util.step("- Perform power cycle action")
+        expectedResult = "User should be able to Perform power cycle action"
+        windows_ip = args[0].windows_ip
+        windows_username = args[0].windows_username
+        windows_password = args[0].windows_password
+        idrac_ip = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_ip']
+        idrac_username = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_username']
+        idrac_password = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_password']
+        flag, msg = ui_idrac.perform_power_cycle_action(idrac_ip, idrac_username, idrac_password,
+                                                     windows_ip, windows_username, windows_password)
+        pass_message = "Power cycle action performed successfully"
+        fail_message = "Power cycle action not performed successfully - %s" % msg
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag
+
+    def step_perform_shutdownos_action(self, data, args):
+        """
+        Perform shutdown with shutdown os first action
+        """
+        util.step("- Perform shutdown with shutdown os first action")
+        expectedResult = "User should be able to perform shutdown with shutdown os first action"
+        windows_ip = args[0].windows_ip
+        windows_username = args[0].windows_username
+        windows_password = args[0].windows_password
+        idrac_ip = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_ip']
+        idrac_username = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_username']
+        idrac_password = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_password']
+        flag, msg = ui_idrac.perform_shutdown_os_action(idrac_ip, idrac_username, idrac_password,
+                                                     windows_ip, windows_username, windows_password)
+        pass_message = "Shutdown with OS action performed successfully"
+        fail_message = "Shutdown with OS action not performed successfully - %s" % msg
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag
+
+    def step_perform_shutdown_using_winrm(self, data, args):
+        """
+        Perform shutdown using winrm
+        """
+        util.step("- Perform shutdown using winrm")
+        expectedResult = "User should be able to perform shutdown using winrm"
+        windows_ip = args[0].windows_ip
+        windows_username = args[0].windows_username
+        windows_password = args[0].windows_password
+        idrac_ip = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_ip']
+        idrac_username = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_username']
+        idrac_password = global_vars.tc_verfn_dict[args[0].testcase_id]['idrac_password']
+        flag, msg = ui_idrac.perform_shutdown_using_winrm(idrac_ip, idrac_username, idrac_password,
+                                                     windows_ip, windows_username, windows_password)
+        pass_message = "Shutdown performed successfully"
+        fail_message = "Shutdown not performed successfully - %s" % msg
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag
+
+    def step_verify_offstate_enabled_controls(self, data, args):
+        """
+        Verify which controls are enabled/disabled when power state is off
+        """
+        util.step("- Verify which controls are enabled/disabled when power state is off")
+        expectedResult = "Only Power on option should be enabled"
+        flag, msg = ui_idrac.verify_offstate_enabled_controls()
+        pass_message = "Only Power on option is enabled"
+        fail_message = "Only power on option is not enabled - %s" % msg
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag
+
+    def step_verify_onstate_enabled_controls(self, data, args):
+        """
+        Verify which controls are enabled/disabled when power state is on
+        """
+        util.step("- Verify which controls are enabled/disabled when power state is on")
+        expectedResult = "Only Power on option should be disabled"
+        flag, msg = ui_idrac.verify_onstate_enabled_controls()
+        pass_message = "Only Power on option is disabled"
+        fail_message = "Only power on option is not disabled - %s" % msg
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag
+		
+    def step_add_ome(self, data, args):
+        """
+        Click 'OME' button and then add OME application. Enter OME application ip and credentials
+        """
+        util.step("- Click 'OME' button and add 'OpenManage Essentials")
+        expectedResult = "User should be able to click 'OME' button and add OME Application"
+        ome_ip = global_vars.tc_verfn_dict[args[0].testcase_id]['ome_ip']
+        ome_username = global_vars.tc_verfn_dict[args[0].testcase_id]['ome_username']
+        ome_password = global_vars.tc_verfn_dict[args[0].testcase_id]['ome_password']
+        flag, msg = ui_ome.add_ome_app(ome_ip, ome_username, ome_password)
+        pass_message = "OME application is successfully added"
+        fail_message = "OME application is not added successfully - %s" % msg
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag
+    
+    def step_verify_ome_details(self, data, args):
+        """
+        Verify OME devices health and event severity details
+        """
+        util.step("- Verify OME devices health and event severity details")
+        expectedResult = "OME health and event details should be displayed correctly"
+        device_health = global_vars.tc_verfn_dict[args[0].testcase_id]['device_health']
+        event_severity = global_vars.tc_verfn_dict[args[0].testcase_id]['event_severity']
+        flag, msg = ui_ome.verify_ome_details(device_health, event_severity)
+        pass_message = "OME health and event details displayed correctly"
+        fail_message = "OME health and event details not displayed correctly - %s" % msg
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag
+    
+    def step_delete_ome(self, data, args):
+        """
+        Delete OME
+        """
+        util.step("- Delete OME")
+        expectedResult = "User should be able to delete OME"
+        ome_ip = global_vars.tc_verfn_dict[args[0].testcase_id]['ome_ip']
+        flag, msg = ui_ome.delete_ome(ome_ip)
+        pass_message = "OME deleted successfully"
+        fail_message = "OME not deleted - %s" % msg
+        args[0].set_pass_fail(flag, expectedResult, pass_message, fail_message)
+        return flag

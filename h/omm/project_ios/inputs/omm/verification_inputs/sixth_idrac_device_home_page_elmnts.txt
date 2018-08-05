@@ -1,0 +1,17 @@
+192.168.0.110
+Power State
+Service Tag
+Device Model
+Memory
+OS
+Hostname
+IP Address
+iDRAC Quick Sync
+ON
+Ready
+Hardware Logs
+Firmware Details
+Network Details
+Health Status
+Warranty Information
+Online Resources

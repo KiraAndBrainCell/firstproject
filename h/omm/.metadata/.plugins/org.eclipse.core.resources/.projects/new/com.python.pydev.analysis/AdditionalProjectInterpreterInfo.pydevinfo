@@ -1,0 +1,24 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/Users/lex/Desktop/s/.metadata/.plugins/org.eclipse.core.resources/.projects/new/com.python.pydev.analysis/v2_indexcache
+nnn.__init__|1487861136000000000|/Users/lex/Desktop/s/new/nnn/__init__.py
+uu.__init__|1487861170000000000|/Users/lex/Desktop/s/new/uu/__init__.py
+he.newtest|1485515203000000000|/Users/lex/Desktop/s/new/he/newtest.py
+he.he|1485515248000000000|/Users/lex/Desktop/s/new/he/he.py
+he.h|1485514851000000000|/Users/lex/Desktop/s/new/he/h.py
+he.__init__|1485514799000000000|/Users/lex/Desktop/s/new/he/__init__.py
+he.hhhh|1487862295000000000|/Users/lex/Desktop/s/new/he/hhhh.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+1=he.newtest
+2=Test
+-- END DICTIONARY
+-- START TREE 1
+1
+tes|1|Test!9@
+-- END TREE
+-- START TREE 2
+1
+tes|1|testName!2&10@
+-- END TREE

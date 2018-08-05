@@ -1,0 +1,75 @@
+object_name,object_description,android_object_property,ios_object_property
+license_agree_chk,Check box for agreeing license on OMM installation,id=com.dell.omm:id/checkbox_accept,
+license_accept_btn,Button for accepting license on OMM instatallation,id=com.dell.omm:id/eula_btn_accept,
+share_dontShare_btn,Button for not sharing app with developers,id=com.dell.omm:id/enable_analytics_button_id,
+login_createPassword_txt,Textbox for creating password in Create Password screen,id=com.dell.omm:id/set_password_enter_id,
+login_confirmPassword_txt,Textbox for confirming password in Create Password screen,id=com.dell.omm:id/set_password_verify_id,
+login_passwordHint_txt,Textbox for entering password hint in Create Password screen,id=com.dell.omm:id/set_password_hint_id,
+login_createPasswordLogin_btn,Button for create password & login Create Password screen,id=com.dell.omm:id/login_button_id,
+demo_tryDemoMode_btn,Button for try demo mode in Demo mode screen,name=Try Demo Mode now,
+demo_continueToOmm_btn,Button for continue to OMM in Demo mode screen,name=Continue to OpenManage Mobile,
+home_actionAdd_btn,Button or adding host in Home page,id=com.dell.omm:id/action_add,
+common_widget_scrollview,Android/ioS generic class name for scrolling,class=android.widget.ScrollView,
+login_enterPassword_txt,Textbox for entering password on Login in Login Screen ,id=com.dell.omm:id/enter_password_enter_id,
+login_login_btn,Button for logging in Login Screen ,id=com.dell.omm:id/login_button_id,
+add_idrac_btn,Button on tab bar to add idrac,,id=iDRAC,
+idrac_add_btn,plus button on idrac page,id=com.dell.omm:id/action_add,name=Add Icon,
+add_idrac_lbl,idrac page title,,id=Label:iDRAC,
+addDevice_addidrac_lbl,Add idrac title on add device page,,id=Label:Add iDRAC,
+addIdrac_deviceType_lbl,Device Type label on Add idrac page,,id=Label:iDRAC,
+addIdrac_ipHostname_txt,IP-hostname field on Add idrac page,id=com.dell.omm:id/hostname_txt_id,id=TextField:IP/Hostname,
+addIdrac_username_txt,Username field on Add idrac page,id=com.dell.omm:id/username_txt_id,id=TextField:Username,
+addIdrac_password_txt,Password field on Add idrac page,id=com.dell.omm:id/password_txt_id,id=TextField:Password,
+addIdrac_add_btn,plus button on idrac page,id=com.dell.omm:id/add_button_id,id=Add,
+addIdrac_certificate_win,SSL Certificate pop up window on clicking add button on add idrac page,id=android:id/alertTitle,name=Do you want to connect to the host having the following SSL Certificate?,
+certificate_accept_btn,Accept button on SSL certificate pop up window,id=android:id/button1,name=Accept,
+idrac_console_lbl,iDRAC console page title,,name=Label:iDRAC Console
+idrac_progress_indicator,Progress Indicator,id=com.dell.omm:id/progressBar,name=Progress
+idrac_console_ip_lbl, Label on idrac console where IP is displayed,id=com.dell.omm:id/top_text,xpath=//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]/UIAStaticText[1]
+add_hosttype_lst,drop down with options add OME / idrac etc,id=com.dell.omm:id/host_type_prompt_id,,
+add_addidrac_txtview, Add idrac option,xpath=//android.widget.FrameLayout[1]/android.widget.ListView[1]/android.widget.CheckedTextView[2],,
+idrac_powerstatus_txtView, Power status text view for idrac,id=com.dell.omm:id/power_status_value,
+idrac_servicetag_txtView, Service tag text view for idrac,id=com.dell.omm:id/service_tag_value,
+idrac_devicemodel_txtView, device model text view for idrac,id=com.dell.omm:id/device_model_value,
+idrac_cpuinfo_txtView, CPU info text view for idrac,id=com.dell.omm:id/cpu_info_value,
+idrac_memoryinfo_txtView, Memory info text view for idrac,id=com.dell.omm:id/memory_info_value,
+idrac_osinfo_txtView, OS info text view for idrac,id=com.dell.omm:id/os_info_value,
+idrac_hostname_txtView, Hostname text view for idrac,id=com.dell.omm:id/hostname_info_value,
+idrac_ipaddress_txtView, IP address text view for idrac,id=com.dell.omm:id/ip_address_value,
+device_configuration_btn, Configuration button in top bar for configuration,id=com.dell.omm:id/action_configure,name=Options Icon
+idracconfiguration_poweroptions_txtView, Power Options on idrac configuration screen,id=com.dell.omm:id/power_actions_info_id,name=Label:Power Options
+poweroptions_poweron_rdb, Power on option,id=com.dell.omm:id/radio_power_on,name=Button:Power On
+poweroptions_powercycle_rdb,Power cycle option,id=com.dell.omm:id/radio_power_cycle,name=Button:Power Cycle
+poweroptions_shutdown_rdb,shutdown option,id=com.dell.omm:id/radio_shutdown,name=Button:Shutdown
+poweroptions_shutdownos_chk,PShutdown OS first option,id=com.dell.omm:id/graceful_checkbox_id,name=Switch:Shutdown OS First
+idrac_select_chk, check box to select iDRAC added in OMM,id=com.dell.omm:id/rac_checkbox,
+idrac_delete_btn, button to delete iDRAC,id=com.dell.omm:id/action_delete,name=Button:Delete Device
+omm_topbar_menu, menu at the top bar,name=OpenManage Mobile,
+omm_menu_options, menu options at the top bar main menu,id=com.dell.omm:id/title,
+confirmdelete_yes_btn, Yes button on confirm delete popup,id=android:id/button1,name=Yes
+addedidrac_ip_txtView, Test view displaying IP of added idrac,id=com.dell.omm:id/top_text,
+poweroptions_submit_btn, Submit button on power options screen,id=com.dell.omm:id/submit_id,name=Button:Submit
+alert_ok_btn, OK button on alert popup,id=android:id/button1,name=OK
+idracconfiguration_editconnection_txtView, Edit Connection on idrac configuration screen,,name=Label:Edit Connection
+omm_topbar_menu, menu at the top bar,name=OpenManage Mobile,
+omm_menu_options, menu options at the top bar main menu,id=com.dell.omm:id/title,
+confirmdelete_yes_btn, Yes button on confirm delete popup,id=android:id/button1,name=Yes
+add_ome_btn,Button on tab bar to add ome,,name=OME
+ome_add_btn,plus button on OME page,id=com.dell.omm:id/action_add,name=Add Icon
+add_ome_lbl,ome page title,,id=Label:OpenManage Essentials
+addOme_ipHostname_txt,IP-hostname field on Add OME page,id=com.dell.omm:id/hostname_txt_id,id=TextField:IP/Hostname
+addOme_username_txt,Username field on Add OME page,id=com.dell.omm:id/username_txt_id,id=TextField:Username
+addOme_password_txt,Password field on Add OME page,id=com.dell.omm:id/password_txt_id,id=TextField:Password
+addOme_add_btn,Save button on add OME page,id=com.dell.omm:id/save_button_id,id=Add
+addOme_certificate_win,SSL Certificate pop up window on clicking add button on add OME page,id=android:id/alertTitle,name=Do you want to connect to the host having the following SSL Certificate?
+addOme_certificate_accept_btn,Accept button on SSL certificate pop up window,id=android:id/button1,id=Accept
+ome_console_ip_lbl,Label on OME console where IP is displayed,id=com.dell.omm:id/top_text,xpath=//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]/UIAStaticText[1]
+alert_subscription_lbl,Label on Alert Subscription is displayed,id=android:id/alertTitle,id=Label:Alert Subscription
+alert_filter_ls,drop down list with options of alert filter,id=android:id/text1,id=Alert Filter
+alert_subscription_skip_btn,Skip button on Alert Subscription page,,id=Skip
+alert_subscription_ok_btn,OK button on Alert Subscription page,id=android:id/button1,
+ome_select_chk, check box to select OME added in OMM,id=com.dell.omm:id/ome_checkbox,
+ome_delete_btn, button to delete OME,id=com.dell.omm:id/action_delete,name=Button:Delete Device
+omeconfiguration_editconnection_txtView, Edit Connection on ome configuration screen,,name=Label:Edit Connection
+
+

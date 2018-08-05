@@ -1,0 +1,2983 @@
+Inside the set up function
+# ****************************************************************************************************
+                                                STEP - Start the appium driver 
+# ****************************************************************************************************
+#####===== Platform is android =========#####
+
+#####===== Desired Caps is {'deviceName': '04c93928881c6417', 'unicodekeyboard': True, 'udid': '04c93928881c6417', 'autoAcceptAlerts': True, 'app': '/Users/lex/Desktop/s/projecttwo/inputs/omm/builds/android/83_android_client-debug.apk', 'resetkeyboard': True, 'platformVersion': '5.1.1', 'appPackage': 'com.dell.omm', 'platformName': 'Android', 'appActivity': 'com.dell.omm.ui.OmmHomeActivity'} =====#####
+
+Appium server logs has been saved to logs file - appium_server_logs_201703010447
+Platform for execution is Darwin
+
+###### Platform for execution is Darwin ######
+
+Appium server has started successfully
+
+Driver started successfully
+Appium driver has been started successfully
+# ****************************************************************************************************
+                                                STEP - Logging in to OMM 
+# ****************************************************************************************************
+Element with tag id and identifier com.dell.omm:id/enter_password_enter_id is found
+
+Text box with identifier id=com.dell.omm:id/enter_password_enter_id is edited with value Dell 
+
+Element with tag id and identifier com.dell.omm:id/login_button_id is found
+
+Button element with identifier id=com.dell.omm:id/login_button_id is clicked
+
+# ****************************************************************************************************
+                                                STEP verify  ome devices text  
+# ****************************************************************************************************
+Element with tag id and identifier com.dell.omm:id/top_text is found
+
+clicked on ome device , ome  name is==>10.255.2.2
+Element with tag id and identifier com.dell.omm:id/ome_push_header_top_text is found
+
+text is 10.255.2.2
+
+Element with tag id and identifier com.dell.omm:id/ome_push_header_bottom_text is found
+
+text is HOME
+
+Element with tag name and identifier Devices is found
+
+text is Devices
+
+Element with tag id and identifier com.dell.omm:id/device_count is found
+
+text is 127
+
+Element with tag id and identifier com.dell.omm:id/red_device_number is found
+
+text is 11 Critical
+
+Element with tag id and identifier com.dell.omm:id/yellow_device_number is found
+
+text is 30 Warning
+
+Element with tag id and identifier com.dell.omm:id/green_device_number is found
+
+text is 84 Healthy
+
+Element with tag id and identifier com.dell.omm:id/gray_device_number is found
+
+text is 2 Unknown
+
+Element with tag name and identifier Alerts is found
+
+text is Alerts
+
+Element with tag id and identifier com.dell.omm:id/alerts_count is found
+
+text is 97
+
+Element with tag id and identifier com.dell.omm:id/red_alert_number is found
+
+text is 35 Critical
+
+Element with tag id and identifier com.dell.omm:id/yellow_alert_number is found
+
+text is 0 Warning
+
+Element with tag id and identifier com.dell.omm:id/green_alert_number is found
+
+text is 55 Healthy
+
+Element with tag id and identifier com.dell.omm:id/blue_alert_number is found
+
+text is 0 Info
+
+Element with tag id and identifier com.dell.omm:id/gray_alert_number is found
+
+text is 7 Unknown
+
+10.255.2.2
+HOME
+Devices
+127
+11 Critical
+30 Warning
+84 Healthy
+2 Unknown
+Alerts
+97
+35 Critical
+0 Warning
+55 Healthy
+0 Info
+7 Unknown
+  Ome device  home page  text verified successfully,ome device name is10.255.2.2
+Element with tag name and identifier Alerts is found
+
+Element with tag name and identifier Alerts is found
+
+text is Alerts
+
+Current text returned by UI is==>Alerts
+Alerts text has been found!!!
+Element with tag id and identifier com.dell.omm:id/cust_spinner_view is found
+
+clicked on alert drop down to get=> All Alerts
+Element with tag id and identifier com.dell.omm:id/cust_spinner_view is found
+
+clicked on alert, alert name is==>All Alerts
+Element with tag id and identifier com.dell.omm:id/alert_text_top is found
+
+alerts which are displaying=> All Alerts
+Element with tag id and identifier com.dell.omm:id/cust_spinner_view is found
+
+clicked on alert drop down to get=> All Internal Alerts
+Element with tag id and identifier com.dell.omm:id/cust_spinner_view is found
+
+clicked on alert, alert name is==>All Internal Alerts
+Element with tag id and identifier com.dell.omm:id/alert_text_top is found
+
+alerts which are displaying=> All Internal Alerts
+Element with tag id and identifier com.dell.omm:id/cust_spinner_view is found
+
+clicked on alert drop down to get=> Critical Alerts
+Element with tag id and identifier com.dell.omm:id/cust_spinner_view is found
+
+clicked on alert, alert name is==>Critical Alerts
+Element with tag id and identifier com.dell.omm:id/alert_text_top is found
+
+alerts which are displaying=> Critical Alerts
+Element with tag id and identifier com.dell.omm:id/cust_spinner_view is found
+
+clicked on alert drop down to get=> Normal Alerts
+Element with tag id and identifier com.dell.omm:id/cust_spinner_view is found
+
+clicked on alert, alert name is==>Normal Alerts
+Element with tag id and identifier com.dell.omm:id/alert_text_top is found
+
+alerts which are displaying=> Normal Alerts
+Element with tag id and identifier com.dell.omm:id/cust_spinner_view is found
+
+clicked on alert drop down to get=> Unknown Alerts
+Element with tag id and identifier com.dell.omm:id/cust_spinner_view is found
+
+clicked on alert, alert name is==>Unknown Alerts
+Element with tag id and identifier com.dell.omm:id/alert_text_top is found
+
+alerts which are displaying=> Unknown Alerts
+Element with tag name and identifier More options is found
+
+Button element with identifier name=More options is clicked
+
+Element with tag id and identifier com.dell.omm:id/title is found
+
+Button element with identifier id=com.dell.omm:id/title is clicked
+
+Element with tag name and identifier Devices is found
+
+Button element with identifier name=Devices is clicked
+
+clicked on devices
+Element with tag name and identifier All Devices is found
+
+text is All Devices
+
+Current text returned by UI is==>All Devices
+All Devices text has been found!!!
+Element with tag id and identifier com.dell.omm:id/group_text is found
+
+ verified successfully==>Network Devices
+verified successfully==>RAC
+verified successfully==>Servers
+Element with tag id and identifier com.dell.omm:id/group_text is found
+
+clicked on page, page name is==>Network Devices
+Element with tag id and identifier com.dell.omm:id/device_text_top is found
+
+verifying details of network device , network device number is ==>0
+Element with tag name and identifier SW4424 is found
+
+text is SW4424
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is none
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Fibre Channel Switch
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is E14
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.239
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of network device, network device number is  ==>0
+verifying details of network device , network device number is ==>1
+Element with tag name and identifier SW4424 is found
+
+text is SW4424
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is none
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Fibre Channel Switch
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is E14
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.239
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of network device, network device number is  ==>1
+verifying details of network device , network device number is ==>2
+Element with tag name and identifier SW4424 is found
+
+text is SW4424
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is none
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Fibre Channel Switch
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is E14
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.239
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of network device, network device number is  ==>2
+verifying details of network device , network device number is ==>3
+Element with tag name and identifier SW4424 is found
+
+text is SW4424
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is none
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Fibre Channel Switch
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is E14
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.239
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of network device, network device number is  ==>3
+verifying details of network device , network device number is ==>4
+Element with tag name and identifier SW4424 is found
+
+text is SW4424
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is none
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Fibre Channel Switch
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is E14
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.239
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of network device, network device number is  ==>4
+verifying details of network device , network device number is ==>5
+Element with tag name and identifier SW4424 is found
+
+text is SW4424
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is none
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Fibre Channel Switch
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is E14
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.239
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of network device, network device number is  ==>5
+Element with tag id and identifier com.dell.omm:id/group_text is found
+
+clicked on page, page name is==>RAC
+Element with tag id and identifier com.dell.omm:id/device_text_top is found
+
+verifying details of RAC device , rac device number is ==>0
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>0
+verifying details of RAC device , rac device number is ==>1
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>1
+verifying details of RAC device , rac device number is ==>2
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>2
+verifying details of RAC device , rac device number is ==>3
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>3
+verifying details of RAC device , rac device number is ==>4
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>4
+verifying details of RAC device , rac device number is ==>5
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>5
+verifying details of RAC device , rac device number is ==>6
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>6
+verifying details of RAC device , rac device number is ==>7
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>7
+verifying details of RAC device , rac device number is ==>8
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>8
+Element with tag id and identifier com.dell.omm:id/group_text is found
+
+clicked on page, page name is==>Servers
+Element with tag id and identifier com.dell.omm:id/device_text_top is found
+
+verifying details of servers device , servers device number is ==>0
+Element with tag name and identifier OME-WIN2012R730 is found
+
+text is OME-WIN2012R730
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is PowerEdge R730
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_id is found
+
+text is CPU
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_value is found
+
+text is 2 X Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz (8 Cores)
+
+Element with tag id and identifier com.dell.omm:id/memory_info_id is found
+
+text is Memory
+
+Element with tag id and identifier com.dell.omm:id/memory_info_value is found
+
+text is 16 GB
+
+Element with tag id and identifier com.dell.omm:id/operating_system_id is found
+
+text is OS
+
+Element with tag id and identifier com.dell.omm:id/operating_system_value is found
+
+text is Microsoft Windows Server 2012 R2, Standard x64 Edition - Version 6.3 (Build 9600) (x64) Server Full Installation
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 192.168.6.114, 10.255.3.76, 169.254.137.245, 10.255.2.35
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is DX90B42
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of Servers device, server device number is  ==>0
+verifying details of servers device , servers device number is ==>1
+Element with tag name and identifier OME-WIN2012R730 is found
+
+text is OME-WIN2012R730
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is PowerEdge R730
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_id is found
+
+text is CPU
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_value is found
+
+text is 2 X Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz (8 Cores)
+
+Element with tag id and identifier com.dell.omm:id/memory_info_id is found
+
+text is Memory
+
+Element with tag id and identifier com.dell.omm:id/memory_info_value is found
+
+text is 16 GB
+
+Element with tag id and identifier com.dell.omm:id/operating_system_id is found
+
+text is OS
+
+Element with tag id and identifier com.dell.omm:id/operating_system_value is found
+
+text is Microsoft Windows Server 2012 R2, Standard x64 Edition - Version 6.3 (Build 9600) (x64) Server Full Installation
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 192.168.6.114, 10.255.3.76, 169.254.137.245, 10.255.2.35
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is DX90B42
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of Servers device, server device number is  ==>1
+verifying details of servers device , servers device number is ==>2
+Element with tag name and identifier OME-WIN2012R730 is found
+
+text is OME-WIN2012R730
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is PowerEdge R730
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_id is found
+
+text is CPU
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_value is found
+
+text is 2 X Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz (8 Cores)
+
+Element with tag id and identifier com.dell.omm:id/memory_info_id is found
+
+text is Memory
+
+Element with tag id and identifier com.dell.omm:id/memory_info_value is found
+
+text is 16 GB
+
+Element with tag id and identifier com.dell.omm:id/operating_system_id is found
+
+text is OS
+
+Element with tag id and identifier com.dell.omm:id/operating_system_value is found
+
+text is Microsoft Windows Server 2012 R2, Standard x64 Edition - Version 6.3 (Build 9600) (x64) Server Full Installation
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 192.168.6.114, 10.255.3.76, 169.254.137.245, 10.255.2.35
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is DX90B42
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of Servers device, server device number is  ==>2
+verifying details of servers device , servers device number is ==>3
+Element with tag name and identifier OME-WIN2012R730 is found
+
+text is OME-WIN2012R730
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is PowerEdge R730
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_id is found
+
+text is CPU
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_value is found
+
+text is 2 X Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz (8 Cores)
+
+Element with tag id and identifier com.dell.omm:id/memory_info_id is found
+
+text is Memory
+
+Element with tag id and identifier com.dell.omm:id/memory_info_value is found
+
+text is 16 GB
+
+Element with tag id and identifier com.dell.omm:id/operating_system_id is found
+
+text is OS
+
+Element with tag id and identifier com.dell.omm:id/operating_system_value is found
+
+text is Microsoft Windows Server 2012 R2, Standard x64 Edition - Version 6.3 (Build 9600) (x64) Server Full Installation
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 192.168.6.114, 10.255.3.76, 169.254.137.245, 10.255.2.35
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is DX90B42
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of Servers device, server device number is  ==>3
+verifying details of servers device , servers device number is ==>4
+Element with tag name and identifier OME-WIN2012R730 is found
+
+text is OME-WIN2012R730
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is PowerEdge R730
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_id is found
+
+text is CPU
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_value is found
+
+text is 2 X Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz (8 Cores)
+
+Element with tag id and identifier com.dell.omm:id/memory_info_id is found
+
+text is Memory
+
+Element with tag id and identifier com.dell.omm:id/memory_info_value is found
+
+text is 16 GB
+
+Element with tag id and identifier com.dell.omm:id/operating_system_id is found
+
+text is OS
+
+Element with tag id and identifier com.dell.omm:id/operating_system_value is found
+
+text is Microsoft Windows Server 2012 R2, Standard x64 Edition - Version 6.3 (Build 9600) (x64) Server Full Installation
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 192.168.6.114, 10.255.3.76, 169.254.137.245, 10.255.2.35
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is DX90B42
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of Servers device, server device number is  ==>4
+Element with tag class and identifier android.widget.ImageButton is found
+
+Element with tag name and identifier Home is found
+
+# ****************************************************************************************************
+                                                STEP verify  ome devices text  
+# ****************************************************************************************************
+Element with tag id and identifier com.dell.omm:id/top_text is found
+
+clicked on ome device , ome  name is==>10.255.2.1
+Element with tag id and identifier com.dell.omm:id/ome_push_header_top_text is found
+
+text is 10.255.2.1
+
+Element with tag id and identifier com.dell.omm:id/ome_push_header_bottom_text is found
+
+text is HOME
+
+Element with tag name and identifier Devices is found
+
+text is Devices
+
+Element with tag id and identifier com.dell.omm:id/device_count is found
+
+text is 127
+
+Element with tag id and identifier com.dell.omm:id/red_device_number is found
+
+text is 11 Critical
+
+Element with tag id and identifier com.dell.omm:id/yellow_device_number is found
+
+text is 30 Warning
+
+Element with tag id and identifier com.dell.omm:id/green_device_number is found
+
+text is 84 Healthy
+
+Element with tag id and identifier com.dell.omm:id/gray_device_number is found
+
+text is 2 Unknown
+
+Element with tag name and identifier Alerts is found
+
+text is Alerts
+
+Element with tag id and identifier com.dell.omm:id/alerts_count is found
+
+text is 97
+
+Element with tag id and identifier com.dell.omm:id/red_alert_number is found
+
+text is 35 Critical
+
+Element with tag id and identifier com.dell.omm:id/yellow_alert_number is found
+
+text is 0 Warning
+
+Element with tag id and identifier com.dell.omm:id/green_alert_number is found
+
+text is 55 Healthy
+
+Element with tag id and identifier com.dell.omm:id/blue_alert_number is found
+
+text is 0 Info
+
+Element with tag id and identifier com.dell.omm:id/gray_alert_number is found
+
+text is 7 Unknown
+
+10.255.2.1
+HOME
+Devices
+127
+11 Critical
+30 Warning
+84 Healthy
+2 Unknown
+Alerts
+97
+35 Critical
+0 Warning
+55 Healthy
+0 Info
+7 Unknown
+  Ome device  home page  text verified successfully,ome device name is10.255.2.1
+Element with tag name and identifier Devices is found
+
+Button element with identifier name=Devices is clicked
+
+clicked on devices
+Element with tag name and identifier All Devices is found
+
+text is All Devices
+
+Current text returned by UI is==>All Devices
+All Devices text has been found!!!
+Element with tag id and identifier com.dell.omm:id/group_text is found
+
+ verified successfully==>Network Devices
+verified successfully==>RAC
+verified successfully==>Servers
+Element with tag id and identifier com.dell.omm:id/group_text is found
+
+clicked on page, page name is==>Network Devices
+Element with tag id and identifier com.dell.omm:id/device_text_top is found
+
+verifying details of network device , network device number is ==>0
+Element with tag name and identifier SW4424 is found
+
+text is SW4424
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is none
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Fibre Channel Switch
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is E14
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.239
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of network device, network device number is  ==>0
+verifying details of network device , network device number is ==>1
+Element with tag name and identifier SW4424 is found
+
+text is SW4424
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is none
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Fibre Channel Switch
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is E14
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.239
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of network device, network device number is  ==>1
+verifying details of network device , network device number is ==>2
+Element with tag name and identifier SW4424 is found
+
+text is SW4424
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is none
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Fibre Channel Switch
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is E14
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.239
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of network device, network device number is  ==>2
+verifying details of network device , network device number is ==>3
+Element with tag name and identifier SW4424 is found
+
+text is SW4424
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is none
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Fibre Channel Switch
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is E14
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.239
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of network device, network device number is  ==>3
+verifying details of network device , network device number is ==>4
+Element with tag name and identifier SW4424 is found
+
+text is SW4424
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is none
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Fibre Channel Switch
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is E14
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.239
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of network device, network device number is  ==>4
+verifying details of network device , network device number is ==>5
+Element with tag name and identifier SW4424 is found
+
+text is SW4424
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is none
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Fibre Channel Switch
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is E14
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.239
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of network device, network device number is  ==>5
+Element with tag id and identifier com.dell.omm:id/group_text is found
+
+Element with tag id and identifier com.dell.omm:id/device_text_top is found
+
+Element with tag id and identifier com.dell.omm:id/device_text_bottom is found
+
+ demo mode first ome device  RAC devices text verified successfully
+Element with tag id and identifier com.dell.omm:id/group_text is found
+
+Element with tag id and identifier com.dell.omm:id/device_text_top is found
+
+verifying details of RAC device , rac device number is ==>0
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>0
+verifying details of RAC device , rac device number is ==>1
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>1
+verifying details of RAC device , rac device number is ==>2
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>2
+verifying details of RAC device , rac device number is ==>3
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>3
+verifying details of RAC device , rac device number is ==>4
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>4
+verifying details of RAC device , rac device number is ==>5
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>5
+verifying details of RAC device , rac device number is ==>6
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>6
+verifying details of RAC device , rac device number is ==>7
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>7
+verifying details of RAC device , rac device number is ==>8
+Element with tag name and identifier iDRAC-5WCTTQ1 is found
+
+text is iDRAC-5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is 5WCTTQ1
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 10.255.2.166, 169.254.31.7
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of RAC device, rac device number is  ==>8
+Element with tag id and identifier com.dell.omm:id/group_text is found
+
+clicked on page, page name is==>Servers
+Element with tag id and identifier com.dell.omm:id/device_text_top is found
+
+verifying details of servers device , servers device number is ==>0
+Element with tag name and identifier OME-WIN2012R730 is found
+
+text is OME-WIN2012R730
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is PowerEdge R730
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_id is found
+
+text is CPU
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_value is found
+
+text is 2 X Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz (8 Cores)
+
+Element with tag id and identifier com.dell.omm:id/memory_info_id is found
+
+text is Memory
+
+Element with tag id and identifier com.dell.omm:id/memory_info_value is found
+
+text is 16 GB
+
+Element with tag id and identifier com.dell.omm:id/operating_system_id is found
+
+text is OS
+
+Element with tag id and identifier com.dell.omm:id/operating_system_value is found
+
+text is Microsoft Windows Server 2012 R2, Standard x64 Edition - Version 6.3 (Build 9600) (x64) Server Full Installation
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 192.168.6.114, 10.255.3.76, 169.254.137.245, 10.255.2.35
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is DX90B42
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of Servers device, server device number is  ==>0
+verifying details of servers device , servers device number is ==>1
+Element with tag name and identifier OME-WIN2012R730 is found
+
+text is OME-WIN2012R730
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is PowerEdge R730
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_id is found
+
+text is CPU
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_value is found
+
+text is 2 X Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz (8 Cores)
+
+Element with tag id and identifier com.dell.omm:id/memory_info_id is found
+
+text is Memory
+
+Element with tag id and identifier com.dell.omm:id/memory_info_value is found
+
+text is 16 GB
+
+Element with tag id and identifier com.dell.omm:id/operating_system_id is found
+
+text is OS
+
+Element with tag id and identifier com.dell.omm:id/operating_system_value is found
+
+text is Microsoft Windows Server 2012 R2, Standard x64 Edition - Version 6.3 (Build 9600) (x64) Server Full Installation
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 192.168.6.114, 10.255.3.76, 169.254.137.245, 10.255.2.35
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is DX90B42
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of Servers device, server device number is  ==>1
+verifying details of servers device , servers device number is ==>2
+Element with tag name and identifier OME-WIN2012R730 is found
+
+text is OME-WIN2012R730
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is PowerEdge R730
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_id is found
+
+text is CPU
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_value is found
+
+text is 2 X Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz (8 Cores)
+
+Element with tag id and identifier com.dell.omm:id/memory_info_id is found
+
+text is Memory
+
+Element with tag id and identifier com.dell.omm:id/memory_info_value is found
+
+text is 16 GB
+
+Element with tag id and identifier com.dell.omm:id/operating_system_id is found
+
+text is OS
+
+Element with tag id and identifier com.dell.omm:id/operating_system_value is found
+
+text is Microsoft Windows Server 2012 R2, Standard x64 Edition - Version 6.3 (Build 9600) (x64) Server Full Installation
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 192.168.6.114, 10.255.3.76, 169.254.137.245, 10.255.2.35
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is DX90B42
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of Servers device, server device number is  ==>2
+verifying details of servers device , servers device number is ==>3
+Element with tag name and identifier OME-WIN2012R730 is found
+
+text is OME-WIN2012R730
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is PowerEdge R730
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_id is found
+
+text is CPU
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_value is found
+
+text is 2 X Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz (8 Cores)
+
+Element with tag id and identifier com.dell.omm:id/memory_info_id is found
+
+text is Memory
+
+Element with tag id and identifier com.dell.omm:id/memory_info_value is found
+
+text is 16 GB
+
+Element with tag id and identifier com.dell.omm:id/operating_system_id is found
+
+text is OS
+
+Element with tag id and identifier com.dell.omm:id/operating_system_value is found
+
+text is Microsoft Windows Server 2012 R2, Standard x64 Edition - Version 6.3 (Build 9600) (x64) Server Full Installation
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 192.168.6.114, 10.255.3.76, 169.254.137.245, 10.255.2.35
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is DX90B42
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of Servers device, server device number is  ==>3
+verifying details of servers device , servers device number is ==>4
+Element with tag name and identifier OME-WIN2012R730 is found
+
+text is OME-WIN2012R730
+
+Element with tag id and identifier com.dell.omm:id/power_status_id is found
+
+text is Power State
+
+Element with tag id and identifier com.dell.omm:id/service_tag_id is found
+
+text is Service Tag
+
+Element with tag id and identifier com.dell.omm:id/device_type_id is found
+
+text is Device Type
+
+Element with tag id and identifier com.dell.omm:id/device_model_id is found
+
+text is Device Model
+
+Element with tag id and identifier com.dell.omm:id/device_model_value is found
+
+text is PowerEdge R730
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_id is found
+
+text is CPU
+
+Element with tag id and identifier com.dell.omm:id/cpu_info_value is found
+
+text is 2 X Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz (8 Cores)
+
+Element with tag id and identifier com.dell.omm:id/memory_info_id is found
+
+text is Memory
+
+Element with tag id and identifier com.dell.omm:id/memory_info_value is found
+
+text is 16 GB
+
+Element with tag id and identifier com.dell.omm:id/operating_system_id is found
+
+text is OS
+
+Element with tag id and identifier com.dell.omm:id/operating_system_value is found
+
+text is Microsoft Windows Server 2012 R2, Standard x64 Edition - Version 6.3 (Build 9600) (x64) Server Full Installation
+
+Element with tag id and identifier com.dell.omm:id/ip_address_id is found
+
+text is IP Address
+
+Element with tag id and identifier com.dell.omm:id/ip_addresses_value is found
+
+text is 192.168.6.114, 10.255.3.76, 169.254.137.245, 10.255.2.35
+
+Element with tag id and identifier com.dell.omm:id/power_status_value is found
+
+text is ON
+
+Element with tag id and identifier com.dell.omm:id/service_tag_value is found
+
+text is DX90B42
+
+Element with tag id and identifier com.dell.omm:id/device_type_value is found
+
+text is Server
+
+Element with tag id and identifier com.dell.omm:id/sw_info_id is found
+
+text is Software Details
+
+Element with tag id and identifier com.dell.omm:id/alerts_info_id is found
+
+text is Alerts
+
+Element with tag name and identifier Warranty is found
+
+text is Warranty
+
+Element with tag name and identifier Online Resources is found
+
+text is Online Resources
+
+successfully verified text of Servers device, server device number is  ==>4
+Element with tag class and identifier android.widget.ImageButton is found
+
+Element with tag name and identifier Home is found
+
+Inside the tear down function
+# ****************************************************************************************************
+                                                STEP - Quit appium driver and stop server/app 
+# ****************************************************************************************************
+Appium server has been terminated
+

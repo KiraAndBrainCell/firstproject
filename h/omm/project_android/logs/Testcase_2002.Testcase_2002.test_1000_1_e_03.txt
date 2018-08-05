@@ -1,0 +1,262 @@
+2017-03-01 13:22:21 INFO [Testcase_2002.Testcase_2002.test_1000_1] Step 1 Started.
+2017-03-01 13:22:37 INFO [Testcase_2002.Testcase_2002.test_1000_1] Step 1 Completed.
+2017-03-01 13:22:37 INFO [Testcase_2002.Testcase_2002.test_1000_1] Step 2 Started.
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 38, in ui_element
+    element = g.driver.find_element_by_name(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 362, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 348, in text_view
+    text = textView.get_attribute('text').encode("ascii", "ignore")
+AttributeError: 'NoneType' object has no attribute 'get_attribute'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 36, in ui_element
+    element = g.driver.find_element_by_id(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 348, in text_view
+    text = textView.get_attribute('text').encode("ascii", "ignore")
+AttributeError: 'NoneType' object has no attribute 'get_attribute'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 36, in ui_element
+    element = g.driver.find_element_by_id(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 348, in text_view
+    text = textView.get_attribute('text').encode("ascii", "ignore")
+AttributeError: 'NoneType' object has no attribute 'get_attribute'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 36, in ui_element
+    element = g.driver.find_element_by_id(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 348, in text_view
+    text = textView.get_attribute('text').encode("ascii", "ignore")
+AttributeError: 'NoneType' object has no attribute 'get_attribute'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 36, in ui_element
+    element = g.driver.find_element_by_id(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 348, in text_view
+    text = textView.get_attribute('text').encode("ascii", "ignore")
+AttributeError: 'NoneType' object has no attribute 'get_attribute'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 36, in ui_element
+    element = g.driver.find_element_by_id(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 348, in text_view
+    text = textView.get_attribute('text').encode("ascii", "ignore")
+AttributeError: 'NoneType' object has no attribute 'get_attribute'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 36, in ui_element
+    element = g.driver.find_element_by_id(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 348, in text_view
+    text = textView.get_attribute('text').encode("ascii", "ignore")
+AttributeError: 'NoneType' object has no attribute 'get_attribute'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 36, in ui_element
+    element = g.driver.find_element_by_id(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 348, in text_view
+    text = textView.get_attribute('text').encode("ascii", "ignore")
+AttributeError: 'NoneType' object has no attribute 'get_attribute'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 36, in ui_element
+    element = g.driver.find_element_by_id(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 348, in text_view
+    text = textView.get_attribute('text').encode("ascii", "ignore")
+AttributeError: 'NoneType' object has no attribute 'get_attribute'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 36, in ui_element
+    element = g.driver.find_element_by_id(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 348, in text_view
+    text = textView.get_attribute('text').encode("ascii", "ignore")
+AttributeError: 'NoneType' object has no attribute 'get_attribute'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 36, in ui_element
+    element = g.driver.find_element_by_id(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 348, in text_view
+    text = textView.get_attribute('text').encode("ascii", "ignore")
+AttributeError: 'NoneType' object has no attribute 'get_attribute'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 36, in ui_element
+    element = g.driver.find_element_by_id(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 348, in text_view
+    text = textView.get_attribute('text').encode("ascii", "ignore")
+AttributeError: 'NoneType' object has no attribute 'get_attribute'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 36, in ui_element
+    element = g.driver.find_element_by_id(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 348, in text_view
+    text = textView.get_attribute('text').encode("ascii", "ignore")
+AttributeError: 'NoneType' object has no attribute 'get_attribute'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 36, in ui_element
+    element = g.driver.find_element_by_id(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 465, in Click
+    click_element.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 38, in ui_element
+    element = g.driver.find_element_by_name(identifier_val)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 362, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 348, in text_view
+    text = textView.get_attribute('text').encode("ascii", "ignore")
+AttributeError: 'NoneType' object has no attribute 'get_attribute'
+Traceback (most recent call last):
+  File "/Users/lex/Desktop/s/projecttwo/libs/product/omm/standard/ui_controls.py", line 36, in ui_element
+    element = g.driver.find_element_by_id(identifier_val)
+  File "/Library/Frameworks/Python.framew
